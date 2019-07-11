@@ -6,11 +6,11 @@
 
 /*
  * @author 05725843181
- * Este Ã© um programa Java simples.
+ * Este é um programa Java simples.
  * Arquivo Example.java
  */
 class Example {
-    //Um programa Java comeÃ§a com uma chamada a main().
+    //Um programa Java começa com uma chamada a main().
     public static void main (String args[]) {
         System.out.println("Java drives the web.");
     }

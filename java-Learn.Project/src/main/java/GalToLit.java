@@ -11,10 +11,10 @@
  */
 class GalToLit {
     public static void main(String args[]) {
-        int gallons; // contÃ©m o nÃºmero de galÃµes;
-        double liters; // contÃ©m o nÃºmero de litros;
+        int gallons; // contém o número de galões;
+        double liters; // contém o número de litros;
         
-        gallons = 57; // comeÃ§a com 57 galÃµes;
+        gallons = 57; // começa com 57 galões;
 
         liters = gallons * 3.7854; // converte para litros;
 

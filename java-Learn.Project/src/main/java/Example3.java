@@ -6,13 +6,13 @@
 
 /*
  * @author 05725843181
- * Esse programa ilustra a diferenÃ§a entre int e double.
+ * Esse programa ilustra a diferença entre int e double.
  * Arquivo Example3.java
  */
 class Example3 {
     public static void main (String args[]) {
-        int var; // essa instruÃ§Ã£o declara uma variÃ¡vel int;
-        double x; // essa instruÃ§Ã£o declara uma variÃ¡vel de ponto flutuante;
+        int var; // essa instrução declara uma variável int;
+        double x; // essa instrução declara uma variável de ponto flutuante;
         
         var = 10; // atribui a var o valor 10;
         
@@ -35,6 +35,6 @@ class Example3 {
  * The output of this code will be:
  * Original value of var: 10;
  * Original value of x: 10.0;
- * var after division: 2; - componente fracionÃ¡rio perdido;
- * x after division: 2.5; - componente fracionÃ¡rio preservado;
+ * var after division: 2; - componente fracionário perdido;
+ * x after division: 2.5; - componente fracionário preservado;
  */
