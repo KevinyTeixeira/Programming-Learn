@@ -4,10 +4,14 @@
  * and open the template in the editor.
  */
 
-/**
- *
+/*
  * @author 05725843181
+ * Este é um programa Java simples.
+ * Arquivo Example.java
  */
-public class Example {
-    
+class Example {
+    //Um programa Java começa com uma chamada a main().
+    public static void main (String args[]) {
+        System.out.println("Java drives the web.");
+    }
 }
