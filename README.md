@@ -4,19 +4,19 @@ In this repository will be stored codes of various programming languages.
 
 The goal is to hone my skills and record them here along the way.
 
-## Portugol
+## *Portugol
 
 
 
-## Java
+## *Java
 
 Reference Book: "Java para Iniciantes 5º edição", from Hebert Schildt;
 
-## HTML
+## *Html
 
 ***HTML is not considered a programming language. I know.**
 
-## PHYTON
+## *Phyton
 
 
 
