@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ * @author 05725843181, 
+ * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+*/
+/* 
+ * Este código demonstra uma variável, Arquivo Example2.java.
+*/
 
-/*
- * @author 05725843181
- * Este código demonstra uma variável.
- * Arquivo Example2.java.
- */
 class Example2 {
     public static void main(String[] args) {
 	int var1, var3; // esta instrução declara uma variável.

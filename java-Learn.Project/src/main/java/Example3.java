@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ * @author 05725843181, 
+ * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+*/
+/* 
+ * Esse programa ilustra a diferença entre int e double, Arquivo Example3.java.
+*/ 
 
-/*
- * @author 05725843181
- * Esse programa ilustra a diferença entre int e double.
- * Arquivo Example3.java
- */
 class Example3 {
     public static void main (String args[]) {
         int var; // essa instrução declara uma variável int;

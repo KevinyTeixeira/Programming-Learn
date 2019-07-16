@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * @author 05725843181
- * Demonstra a instrução if.
- * Arquivo IfDemo.java.
- */
+/**
+ * @author 05725843181, 
+ * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+*/
+/* 
+ * Demonstra a instrução If, Arquivo IfDemo.java.
+*/
 class IfDemo {
     public static void main(String args []) {
         int a, b, c;
