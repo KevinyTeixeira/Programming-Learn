@@ -1,4 +1,7 @@
-/.classpath
-/.project
+# Para todos os arquivos e sub-pastas localizados nas pastas
 /java-Learn.Project/target/
-/java-Learn.Project/pom.xml
+/java-Learn.Project/src/test/
+# Para extensões de arquivos
+*.xml
+*.project
+*.classpath
