@@ -1,42 +1,42 @@
 <a href="https://github.com/KevinyTeixeira/Programming-learn/blob/1_JavaLearning/Atividades/Question%C3%A1rio%201%20-%20Bytecode%2C%20OOP%2C%20Variable%2C%20if%2C%20for%2C%20Block%2C%20TryTable.md">Português</a><br>
 
-### CAPÍTULO 1: Respostas dos Exercícios
-> Estas respostas são com base na lista de exercícios proposta pelo livro "Java para Iniciantes 5º Edição", de Herbert Schildt. <br>
+### CHAPTER 1: Exercises Answers
+> These answers are based on the list of exercises proposed by Herbert Schildt, in his book "Java para Iniciantes 5º Edição". <br>
 
-**1. O que é bytecode e por que ele é importante para o uso de Java em programação na internet?** <br>
-<p align="justify">Bytecode é o código .java compilado em .class. Quando o código java torna-se um bytecode, possui atributos de portabilidade e segurança, já que para ser executado utiliza-se a JVM (Java Virtual Machine).</p>
+**1. What is bytecode and why is it important for using Java in internet programming?** <br>
+<p align="justify">Bytecode is the .java code compiled in .class. When the java code becomes a bytecode, it has attributes of portability and security, since to be executed it uses the JVM (Java Virtual Machine).</p>
 
-**2. Quais são os três princípios básicos da programação orientada a objetos?** <br>
-A (OOP, object-oriented programming)  tem como princípios básicos as características de:
-- Encapsulamento: mecanismo de programação que vincula o código e os dados que ele trata;
-- Polimorfismo: qualidade que permite que uma interface acesse uma classe geral de ações; Ou seja, um mesmo algoritmo para diferentes tipos de dados;
-- Herança: processo pelo qual um objeto pode adquirir as propriedades de outro objeto.
+**2. What are the three basic principles of object-oriented programming?** <br>
+The object-oriented programming (OOP) principles are:
+- Encapsulation: programming engine that links the code and the data it treats.;
+- Polymorphism: quality that allows an interface to access a general class of actions; That is, the same algorithm for different data types;
+- Heritage: process by which an object can acquire the properties of another object..
 
-**3. Onde os programas Java começam a ser executados?** <br>
-<p align="justify">Começam a ser executados em main ( ).</p>
+**3. Where Java programs begin to run?** <br>
+<p align="justify">They start in main ( ) command.</p>
 
-**4. O que é uma variável?** <br>
-Uma variável é um local nomeado na memória ao qual pode ser atribuído um valor.</p>
+**4. What is a variable?** <br>
+A variable is a named location in memory to which a value can be assigned.</p>
 
-**5. Quais dos nomes da e variável a seguir são inválidos?**
+**5. Which of the following variable names are invalid?**
 - [ ]	count
 - [ ]	$count
 - [ ]	count27
-- [x]	67count – nomes de variáveis não podem começar com dígitos.
+- [x]	67count – variable names can not begin with numbers.
 
-**6. Como se cria um comentário de linha única? E um comentário de várias linhas?** <br>
-<p align="justify">Basta inserir duas barras invertidas (//) no início da linha. Já para várias linhas deve ser inserido /* como abertura e */ como fechamento. Segue alguns exemplos.</p>
-
-```Java
-// este é um comentário de linha única.
-/*Este é um comentário de
-Várias linhas. */
-```
-
-**7. Mostre a forma geral da instrução if. Mostre também a do laço for.** <br>
+**6. How do I create a single line comment? And a multi-line comment?** <br>
+<p align="justify">Just insert two backslashes (//) at the beginning of the line. For multiple lines should be inserted / * as opening and */ as closing. Here are some examples.</p>
 
 ```java
-// Exemplifica a instrução if, IfExample.java.
+// this is a single line comment.
+/*This is a comment from
+multiple lines. */
+```
+
+**7. Show the general form of the if statement. Also show the for too.** <br>
+
+```java
+// Example of a if instruction, IfExample.java.
 
 class ifExample {
 	public static void main (String args[]) {
@@ -57,7 +57,7 @@ class ifExample {
 ```
 
 ```java
-//Exemplifica a instrução for, ForDemo.java.
+//Example of a for instruction, ForDemo.java.
 
 public class ForDemo {
 	public static void main (String args[]) {
@@ -74,11 +74,11 @@ public class ForDemo {
 }
 ```
 
-**8. Como se cria um bloco de código?** <br>
-<p align="justify">Um bloco de código é criado a partir das chaves de abertura “{“ e de fechamento “}”. É utilizada para compor um conjunto de instruções. Segue abaixo um exemplo de código em bloco.</p>
+**8. How to create a block?** <br>
+<p align="justify">A block is created from the opening keys "{" and closing "}". It is used to compose a set of instructions. The following is an example of block.</p>
 
 ```java
-/* Usando o exemplo da instrução if acima, acrescentamos o uso de bloco, BlockExample.java. */
+/* Using the if instruction, BlockExample.java. */
 
 class BlockExample {
 	public static void main (String args[]) {
@@ -102,15 +102,15 @@ class BlockExample {
 	}
 ```
 
-**9. A gravidade da Lua é cerca de 17% a da Terra. Crie um programa que calcule seu peso na Lua?** <br>
+**9. The Moon's gravity is about 17% that of Earth. Create a program that calculates your weight on the Moon.** <br>
 
 ```java
-// Calcula seu peso na lua WeightOnMoon.java.
+// Calculate your weight on the moon WeightOnMoon.java.
 
 class WeightOnMoon {
 	public static void main (String args[]) {
-		double earth_weight, // Peso na Terra
-double moon_weight; // Peso na Lua
+		double earth_weight,
+		double moon_weight;
 		
 		earth_weight = 65.50; //My weight;
 
@@ -121,7 +121,7 @@ double moon_weight; // Peso na Lua
 	}
 ```
 
-**10. Adapte o código da seção “Tente isso 1-2” para que ele exiba uma tabela de conversões de polegadas para metros. Exiba 12 pés de conversões, polegada a polegada. Gere uma linha me branco a cada 12 polegadas. (Um metro é igual a aproximadamente 39,37 polegadas.)** <br>
+**10. Adapt the code from the "Try this 1-2" section so that it displays a conversion table from inches to meters. Display 12 feet of conversions, inch by inch. Generate a white line every 12 inches. (One meter is equal to approximately 39.37 inches.)** <br>
 
 ```java
 //This code convert inches to meters, InchToMeter.java.
@@ -138,18 +138,18 @@ public class InchToMeter {
 			System.out.println(inches + " inches is " + meters + " meters.");
 			counter++;
 			
-		//a cada 12 linhas, exibe uma linha em branco.
+		//every 12 lines, display a blank line.
 		if (counter == 12) {
 			System.out.println();
-			counter = 0; //zera o contador de linhas.
+			counter = 0; //set counter to zero.
 			}
 		}
 	}
 }
 ```
 
-**11. Se você cometer um engano na digitação ao inserir seu programa, isso resultará que tipo de erro?** <br>
-<p align="justify">Ocorrerá um erro de sintaxe.</p>
+**11. If you enter something by mistake in the program, will this result in what kind of error?** <br>
+<p align="justify">Sintax error.</p>
 
-**12. É importante o local onde inserimos uma instrução em uma linha?** <br>
-<p align="justify">Não, já que Java não trata o final da linha como terminador.</p>
+**12. Is it important to consider the line we entered the instruction?** <br>
+<p align="justify">No, since Java does not treat the end of the line as a terminator.</p>
