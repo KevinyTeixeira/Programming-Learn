@@ -1,7 +1,7 @@
 /**
  * @author 05725843181, @Reference Book: Java para Iniciantes 5º Edição; Herbert Schildt;
 */
- /* Demnostra um bloco de código, Arquivo BlockDemo.java.
+ /* Demonstra um bloco de código, Arquivo BlockDemo.java.
  */
 
 class BlockDemo {
