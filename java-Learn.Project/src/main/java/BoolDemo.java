@@ -1,6 +1,6 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
  * Demonstra o funcionamento do caractere booleano, Arquivo BoolDemo.java.
@@ -15,13 +15,13 @@ public class BoolDemo {
 		b = true;
 		System.out.println("b is " + b);
 		
-		// um valor booleano pode controlar a instrução
+		// um valor booleano pode controlar a instruÃ§Ã£o
 		if (b) System.out.println("This is executed.");
 		
 		b = false;
 		if(b) System.out.println("This is not executed");
 		
-		// o resultado de um operador relacional é um valor booleano
+		// o resultado de um operador relacional Ã© um valor booleano
 		System.out.println("10 > 9 is " + (10 > 9));
 	}
 }

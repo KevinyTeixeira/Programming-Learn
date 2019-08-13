@@ -1,7 +1,7 @@
 /**
- * @author 05725843181, @Reference Book: Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @author 05725843181, @Reference Book: Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
- /* Demonstra um bloco de código, Arquivo BlockDemo.java.
+ /* Demonstra um bloco de cÃ³digo, Arquivo BlockDemo.java.
  */
 
 class BlockDemo {
@@ -11,7 +11,7 @@ class BlockDemo {
 		i = 5;
 		j = 10;
 		
-		// o alvo desta instrução if é um bloco
+		// o alvo desta instruÃ§Ã£o if Ã© um bloco
 		if (i != 0) {
 			System.out.println("i does not equal zero");
 			d = j / i;

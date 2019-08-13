@@ -1,17 +1,17 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Este código demonstra uma variável, Arquivo Example2.java.
+ * Este cÃ³digo demonstra uma variÃ¡vel, Arquivo Example2.java.
 */
 
 class Example2 {
     public static void main(String[] args) {
-	int var1, var3; // esta instrução declara uma variável.
-	int var2; // esta instrução declara outra variável.
+	int var1, var3; // esta instruÃ§Ã£o declara uma variÃ¡vel.
+	int var2; // esta instruÃ§Ã£o declara outra variÃ¡vel.
 	
-	var1 = 1024; // esta instrução atribui 1024 a var1.
+	var1 = 1024; // esta instruÃ§Ã£o atribui 1024 a var1.
 	
 	System.out.println("var1 contains " + var1);
 	

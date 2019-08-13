@@ -1,6 +1,6 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§ao; Herbert Schildt;
 */
 /* 
  * Demonstra o funcionamento do tipo de caractere char, Arquivo CharArithDemo.java.
@@ -16,7 +16,7 @@ public class CharArithDemo {
 	ch++; // incrementa ch. Um char pode ser incrementado
 	System.out.println("ch countains: " + ch);
 	
-	ch = 90; // atribui o caractere 90 da sequência ASCII
+	ch = 90; // atribui o caractere 90 da sequÃªncia ASCII
 	System.out.println("ch countains: " + ch);
 	}
 }

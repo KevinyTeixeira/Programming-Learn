@@ -1,9 +1,9 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Este código calcula quantas polegadas cúbicas há em uma milha cúbica, Arquivo Inches.java.
+ * Este cÃ³digo calcula quantas polegadas cÃºbicas hÃ¡ em uma milha cÃºbica, Arquivo Inches.java.
 */
 
 public class Inches {

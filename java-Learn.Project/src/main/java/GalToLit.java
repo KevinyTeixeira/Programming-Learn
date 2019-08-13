@@ -1,16 +1,16 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Este programa converte galões em litros, Arquivo GalToLit.java.
+ * Este programa converte galÃµes em litros, Arquivo GalToLit.java.
 */ 
 class GalToLit {
     public static void main(String args[]) {
-        int gallons; // contém o número de galões;
-        double liters; // contém o número de litros;
+        int gallons; // contÃ©m o nÃºmero de galÃµes;
+        double liters; // contÃ©m o nÃºmero de litros;
         
-        gallons = 57; // começa com 57 galões;
+        gallons = 57; // comeÃ§a com 57 galÃµes;
 
         liters = gallons * 3.7854; // converte para litros;
 

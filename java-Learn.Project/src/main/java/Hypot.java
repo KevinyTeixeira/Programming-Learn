@@ -1,9 +1,9 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Usa o teorema de pitágoras para encontrar o comprimento da hipotenusa dados os comprimentos dos dois lados opostos, Arquivo Hypot.java.
+ * Usa o teorema de pitÃ¡goras para encontrar o comprimento da hipotenusa dados os comprimentos dos dois lados opostos, Arquivo Hypot.java.
 */
 
 public class Hypot {

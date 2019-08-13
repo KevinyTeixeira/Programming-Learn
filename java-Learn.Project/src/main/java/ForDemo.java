@@ -1,19 +1,19 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Demonstra a instrução for, Arquivo ForDemo.java.
+ * Demonstra a instruÃ§Ã£o for, Arquivo ForDemo.java.
 */ 
 
-// for(inicialização; condição; iteração) instrução;
+// for(inicializaÃ§Ã£o; condiÃ§Ã£o; iteraÃ§Ã£o) instruÃ§Ã£o;
 // Can be used, count = count + 1; count++ or (if you want decrease, count--);
 
 class ForDemo {
 	public static void main (String args[]) {
 		int count;
 		
-		for (count = 0; count < 5; count++) //Este laço itera 5 vezes;
+		for (count = 0; count < 5; count++) //Este laÃ§o itera 5 vezes;
 			System.out.println("This is count: " + count);
 			
 		System.out.println("Done!");

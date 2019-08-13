@@ -1,9 +1,9 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5º Edição; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5Âº EdiÃ§Ã£o; Herbert Schildt;
 */
 /* 
- * Demonstra a instrução If, Arquivo IfDemo.java.
+ * Demonstra a instruÃ§Ã£o If, Arquivo IfDemo.java.
 */
 class IfDemo {
     public static void main(String args []) {
@@ -14,12 +14,12 @@ class IfDemo {
         
         if (a < b) System.out.println("a is less than b");
         
-        //Esta instrução não exibirá nada;
+        //Esta instruÃ§Ã£o nÃ£o exibirÃ¡ nada;
         if (a == b) System.out.println("you won't see this");
         
         System.out.println();
         
-        c = a - b; // c contém - 1
+        c = a - b; // c contÃ©m - 1
         
         System.out.println("c contains " + c);
         if(c >= 0) System.out.println("c is non-negative");
@@ -27,10 +27,20 @@ class IfDemo {
         
         System.out.println();
         
-        c = b - a; // agora c contém 1;
+        c = b - a; // agora c contÃ©m 1;
         
         System.out.println("c contains " + c);
         if (c >= 0) System.out.println("c is non-negative");
         if (c < 0) System.out.println("c is negative");
     }
 }
+
+/*
+ * The output of this code will be:
+ * a is less than b
+ * c contains -1
+ * c is negative
+ * c contains 1
+ * c is non-negative
+ */
+

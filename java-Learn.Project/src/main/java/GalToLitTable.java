@@ -1,13 +1,13 @@
 /**
  * @author 05725843181, 
- * @ReferenceBook Java para Iniciantes 5∫ EdiÁ„o; Herbert Schildt;
+ * @ReferenceBook Java para Iniciantes 5¬∫ Edi√ß√£o; Herbert Schildt;
 */
 /* 
- * Este programa exibe uma tabela de conversıes de galıes em litros, Arquivo GalToLitTable.java.
+ * Este programa exibe uma tabela de convers√µes de gal√µes em litros, Arquivo GalToLitTable.java.
 */
 
-//1. Use for ou if, ou blocos de cÛdigo, deve exibir uma tablea de conversıes
-//com 1 gal„o e terminando com 100 galıes. A cada 10 galıes, um linha branca È exibida. Use counter para contador.
+//1. Use for ou if, ou blocos de c√≥digo, deve exibir uma tablea de convers√µes
+//come√ßando com 1 gal√£o e terminando com 100 gal√µes. A cada 10 gal√µes, um linha branca √© exibida. Use counter para contador.
 class GalToLitTable {
 	public static void main(String args[]) {
 		double liters, gallons;
@@ -19,7 +19,7 @@ class GalToLitTable {
 			liters = gallons * 3.7854; // converte para litros;
 			System.out.println(gallons + " gallons is " + liters + " liters.");
 			counter++;
-			// a cada dÈcima linha, exibe uma linha em branco	
+			// a cada d√©cima linha, exibe uma linha em branco	
 			if (counter == 10) {
 				System.out.println("");
 				counter = 0; // zera o contador de linhas
