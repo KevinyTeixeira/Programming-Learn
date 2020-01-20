@@ -11,8 +11,14 @@
 
 <p align="justify">Este projeto é organizado da seguinte forma: a <b>master branch</b> apresenta uma visão geral de todos os assuntos do projeto, enquanto outras branchs são criadas para lidar com temas específicos. Ou seja, para ver assuntos específicos, visite a <b>branch específica</b>.</p>
 
-### O que aprender
-- [x]	Site intuitivo para ver este projeto. <b style="color:red">(publicado no projeto <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
+### Sobre mim
+
+<p align="justify">Atualmente estudo na <b>Universidade Católica de Brasília (UCB)</b> e curso <b><i>Análise e Desenvolvimento de Sistemas</i></b>. Eu sempre fui muito ambicioso com relação a tudo o que envolve tecnologia, gosto de programação, de entender hardware e software dos diferentes dispositivos no mercado, os impactos que resultam no desempenho dos dispositivos, de ter domínio sobre a tecnologia que existe à disposição. Tenho muito interesse em assuntos como Inteligência Artificial, IOT, Ciência de Dados, e áreas que geram resultados visíveis e perceptíveis com facilidade, praticidade. Mesmo sem ter conhecimento suficiente na área, já me aventurei em fazer ajustes em códigos de programação LUA para um jogo que tentei recriar como um projeto de hobby, também já me aventurei em usar a criatividade para tentar criar uma versão modificada de Super Mario World por pura diversão!.</p>
+
+### O que aprender?
+<p align="justify">Meus objetivos para este projeto são:</p>
+
+- [x]	Criar um site intuitivo para ver este projeto. <b style="color:red">(publicado no projeto <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
 - [ ]	Portugol;
 - [ ]	C;
 - [ ]	C++;
