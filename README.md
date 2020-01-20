@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="#" target="_blank"><img src="https://freepngimg.com/download/www/13-2-www-png-images.png" style="max-width: 100%;" width="270" height="250"></a>
+  <a href="#" target="_blank"><img src="https://freepngimg.com/download/www/13-2-www-png-images.png" style="max-width: 100%;" width="230" height="210"></a>
 
   See this readme in <a href=".github/README-pt-BR.md">Português</a>.
 </div>
