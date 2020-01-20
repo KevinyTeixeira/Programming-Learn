@@ -1,0 +1,15 @@
+algoritmo HelloWorld;
+
+//  Objetivo: efetuar a famosa saudação Hello World ao usuário do algoritmo;
+//  Entrada : sem entrada;
+//  Saída   : boas vindas com o nome do usuário;
+
+principal
+	
+	// Declarações
+	
+	// Instruções
+	escreval("HELLO WORLD!");
+	escreva("Keviny, seja bem vindo ao ambiente Calango! Portugol baseado em C!");
+	
+fimPrincipal
