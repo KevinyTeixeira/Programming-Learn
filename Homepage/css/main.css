@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*MAIN*/
+.main {
+	
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+header {
+	
+	/*background-color: linear-gradient(rgba(198,57,57,0.5), rgba(198,57,57,0.5)), #c63939;*/
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/background.png');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+/*GITHUB & LINKEDIN PAGE*/
+.links_btn ul {
+	
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	
+}
+
+.links_btn ul li {
+	
+	float: left;
+	padding: 5px 10px;
+	display: inline-block;
+	
+}
+
+.links_btn ul li img {
+	
+	width: 50px;
+	opacity: 1;
+	transition: 0.2s ease;
+	
+}
+
+.links_btn ul li img:hover {
+	
+	width: 55px;
+	height: auto;
+	opacity: 0.3;
+	filter: alpha(opacity=50);
+	zoom: 1;
+	
+}
+
+/*PORTUGUESE OR ENGLISH*/
+.language_btn ul {
+	
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	
+}
+
+.language_btn ul li {
+	
+	float: right;
+	padding: 2px;
+	display: inline-block;
+	
+}
+
+.language_btn img {
+	
+	width: 80px;
+	opacity: 1;
+	transition: 0.2s ease;
+	
+}
+
+.language_btn a:hover img {
+	
+	width: 85px;
+	height: auto;
+	opacity: 0.3;
+	filter: alpha(opacity=50);
+	zoom: 1;
+	
+}
+
+/*LANGUAGUES ON HEADER*/
+.programming ul {
+	
+	margin-left: 200px;
+	margin-right: 200px;
+	/*border: 1px solid #fff; - for test area impact */
+	float: none;
+	position: relative;
+	top: 30px;
+	
+}	
+
+.programming ul li {
+	
+	font-family: Century Gothic;
+	display: inline-block;
+	
+}
+
+.programming ul li a {
+	
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+
+.programming ul li a:hover {
+	
+	background-color: #fff;
+	color: #000;
+	
+}
+
+.text-box-header {
+	
+	position: sticky;
+	transition: 1s ease;
+	font-family: Courier New;
+	background-color: rgba(255, 255, 255, 0.15);
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border-radius: 15px 50px 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	position: absolute;
+	top: 100px;
+	color: white;
+	border: 2px solid #333333;
+	
+}
+
+.text-box-header:hover {
+
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+	width: auto;
+	height: auto;
+
+}
+
+.text-box-content {
+	
+	position: sticky;
+	transition: 1s ease;
+	font-family: Courier New;
+	background-color: rgba(255, 255, 255, 0.15);
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border-radius: 15px 50px 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	position: absolute;
+	top: 220px;
+	color: white;
+	border: 2px solid #333333;
+	
+}
+
+.text-box-content:hover {
+
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+	width: auto;
+	height: auto;
+
+}
+
+/*TITLE PAGE*/
+.title {
+	
+	position: absolute;
+	top: 10%;
+	left: 36%;
+	
+}
+
+.title h1 {
+	
+	color: #fff;
+	font-size: 30px;
+	
+}
+}
