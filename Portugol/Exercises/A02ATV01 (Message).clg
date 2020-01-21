@@ -1,0 +1,19 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Create an algorithm that prints the message "Este algoritmo foi eu quem fiz! Eu já sei programar!" on screen;
+//  In : Message;
+//  Out   : Show a message on screen;
+
+// Síntese [PT]
+//  Objetivo: Algoritmo que imprima na tela a mensagem "Este algoritmo foi eu quem fiz! Eu já sei programar!";
+//  Entrada : Mensagem;
+//  Saída   : Mostrar uma mensagem na tela;
+
+principal
+
+	// Statements/Declarações
+	texto mensagem;
+	// Instructions/Instruções
+	escreval("Este algorítmo foi eu quem fiz! Eu já sei programar!");
+	
+fimPrincipal
