@@ -1,0 +1,48 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Register at the gym;
+//  In 		 : Full Name, E-mail, CPF, Birth Date, (Area Code) Mobile, (Area Code) Telephone;
+//  Out      : Return the data that was registered on the screen;
+
+// Síntese [PT]
+// Objetivo	: Efetuar cadastro na academia;
+// Entrada	: Nome Completo, E-mail, CPF, Data de Nascimento, (DDD) Celular, (DDD) Telefone;
+// Saída	: Retornar na tela os dados que foram cadastrados;
+
+principal
+
+	// Statements/Declarações
+	texto Nome_Completo, Email, CPF, Data_de_Nascimento, Celular, Telefone;
+	
+	// Instructions/Instruções
+	//Assignment of Variable Nome_Completo/Atribuição da Variável Nome_Completo
+	escreva("Console│ Digite seu nome completo: ");
+	leia(Nome_Completo);
+	//Assignment of Variable Email/Atribuição da Variável Email
+	escreva("Console│ Digite seu e-mail: ");
+	leia(Email);
+	//Assignment of Variable CPF/Atribuição da Variável CPF
+	escreva("Console│ Digite seu CPF: ");
+	leia(CPF);
+	//Assignment of Variable Data_de_Nascimento/Atribuição da Variável Data_de_Nascimento
+	escreva("Console│ Digite sua Data de Nascimento: ");
+	leia(Data_de_Nascimento);
+	//Assignment of Variable Celular/Atribuição da Variável Celular
+	escreva("Console│ Digite seu celular para contato: ");
+	leia(Celular);
+	//Assignment of Variable Telefone/Atribuição da Variável Telefone
+	escreva("Console│ Digite seu telefone fixo para contato: ");
+	leia(Telefone);
+	//Return Registered Data/Retorno dos Dados Cadastrados
+	escreval("-Retorno do Cadastro-");
+	escreval("Console│ Seu nome é ", Nome_Completo);
+	escreval("Console│ Seu e-mail é ", Email);
+	escreval("Console│ Seu CPF é ", CPF);
+	escreval("Console│ Sua data de nascimento é ", Data_de_Nascimento);
+	escreval("Console│ Seu celular é ", Celular);
+	escreval("Console│ Seu telefoni fixo é ", Telefone);
+	
+	//Final Message/Mensagem Final
+	escreva("Console│ Cadastro Realizado com sucesso!");
+	
+fimPrincipal

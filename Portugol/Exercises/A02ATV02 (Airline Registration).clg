@@ -1,0 +1,49 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Algorithm that receives the following data from an airline customer.;
+//  In 		 : Name; Sex; CPF number; Telephone number; Number of Bags; Total Weight of Bags;;
+//  Out      : Display the customer data registered on the screen.;
+
+// Síntese [PT]
+//  Objetivo: Algoritmo que receba os seguintes dados de um cliente de uma companhia aérea;
+//  Entrada : Nome; Sexo; Número do CPF; Número do Telefone; Quantidade de Malas; Peso Total das Malas;
+//  Saída   : Apresentar os dados do cliente cadastrado na tela;
+
+principal
+
+	// Statements/Declarações
+	texto nome, cpf, txt_sexo;
+	inteiro celular, malas_qt;
+	real malas_peso;
+	caracter sexo;
+
+	// Instructions/Instruções
+	escreva("Insira seu nome completo: ");
+	leia(nome);
+	escreva("Insira seu sexo, M para masculino e F para feminino: ");
+	leiaCaracter(sexo);
+	se ( sexo == 'M' ) entao
+		txt_sexo = "masculino";
+		se ( sexo == 'F' ) entao
+			txt_sexo = "feminino";
+		fimSe
+	senao
+		escreval("Por favor, insira um valor válido!");
+	fimSe
+	escreva("Insira o número de seu CPF (Apenas números): ");
+	leia(cpf);
+	escreva("Insira seu celular para contato (Apenas números): ");
+	leia(celular);
+	escreva("Quantas malas está levando? ");
+	leia(malas_qt);
+	escreva("Qual o peso total de suas malas? ");
+	leia(malas_peso);
+	
+	//End of data collection/Fim da Coleta de Dados
+	escreval("Seu nome é ", nome, ".");
+	escreval("Seu sexo é ", txt_sexo, ".");
+	escreval("Seu cpf é ", cpf, ".");
+	escreval("Seu celular para contato é (61) ", celular, ".");
+	escreval("Você trouxe ", malas_qt, " malas e seu peso total é de ", malas_peso, ".");
+
+fimPrincipal

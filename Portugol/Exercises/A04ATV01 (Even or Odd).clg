@@ -1,0 +1,29 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Check if the number entered is odd or even;
+//  In 		 : A number;
+//  Out      : Returns the number typing;
+
+// Síntese [PT]
+// Objetivo	: Verificar se o número inserido é impar ou par;
+// Entrada	: Número;
+// Saída	: Retorna a tipagem do número;
+
+principal
+
+	// Statements/Declarações
+	inteiro numero;
+	real mod_final;	
+
+	// Instructions/Instruções
+	//Assignment of Variable numero/Atribuição da Variável numero
+	escreva("Console│ Digite um número qualquer: ");
+	leia(numero);
+	mod_final = numero%2;
+	se (mod_final!=0) entao
+		escreva("Console│ Seu número é impar!");
+	senao
+		escreva("Console│ Seu número é par!");
+	fimSe
+
+fimPrincipal

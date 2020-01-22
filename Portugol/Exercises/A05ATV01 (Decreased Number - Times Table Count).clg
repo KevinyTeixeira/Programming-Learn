@@ -1,0 +1,29 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Algorithm that reads a number and prints all numbers from the number entered by the user to 0 (zero). That is, in reverse order, from largest to smallest;
+//  In 		 : Number;
+//  Out      : Decrease the number to zero;
+
+// Síntese [PT]
+//  Objetivo: Algoritmo que leia um número e imprima todos os números desde o número informado pelo usuário até 0 (zero). Ou seja, em ordem inversa, do maior para menor;
+//  Entrada : Número;
+//  Saída   : Decréscimo do número até zero;
+
+principal
+
+	// Statements/Declarações
+	real numero;
+	inteiro momento, contagem;
+
+	// Instructions/Instruções
+	momento = 1;
+	escreva("Insira um número para ser diminuido: ");
+	leia(numero);
+	para (contagem de 1 ate numero passo 1) faca
+		numero = numero - 1;
+		escreval(momento, ". Seu número é ", numero:3:2,".");
+		momento = momento + 1;
+	fimPara
+	escreva("Fim do algorítmo, neste momento sua varíavel apresenta ser ", numero:3:2, "!");
+
+fimPrincipal

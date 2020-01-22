@@ -1,0 +1,49 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Present the number of students who passed and failed based on their grades;
+//  In 		 : Student, grade;
+//  Out      : Students fail and pass;
+
+// Síntese [PT]
+//  Objetivo: Apresentar a quantidade de estudantes aprovados e reprovados com base em suas notas;
+//  Entrada : Aluno, nota;
+//  Saída   : Alunos reprovados e aprovados;
+
+principal
+
+	// Statements/Declarações
+	inteiro aluno;
+	real nota_1, nota_2, nota_3, media[5];
+	texto nome[5], situacao[5];
+
+	// Instructions/Instruções
+	para (aluno de 0 ate 4 passo 1 ) faca
+		escreval("Escreva o nome do ", aluno+1, "º aluno: ");
+		leia(nome[aluno]);
+		/*
+		nota_1 = aleatorio(10);
+		nota_2 = aleatorio(10);
+		nota_3 = aleatorio(10);
+		*/
+		escreval("Insira a primeira nota: ");
+		leia(nota_1);
+		escreval("Insira a segunda nota: ");
+		leia(nota_2);
+		escreval("Insira a terceira nota: ");
+		leia(nota_3);
+		media[aluno] = (nota_1 + nota_2 + nota_3) / 3;
+		se (media[aluno] >= 5) entao
+			situacao[aluno] = "Aprovado";
+			//escreva(nome[aluno], " obteve uma média de (", media[aluno]:3:2, "). Status: ", situacao[aluno], ".");
+			senao
+			situacao[aluno] = "Reprovado";
+			//escreva(nome[aluno], " obteve uma média de (", media[aluno]:3:2, "). Status: ", situacao[aluno], ".");
+		fimSe
+		//	escreval("A varíavel aluno é ", aluno, ".");
+	fimPara
+
+	para (aluno de 0 ate 4 passo 1 ) faca
+		escreval("O aluno ", nome[aluno], " tirou ", media[aluno]:3:2, ". Sua situação é ", situacao[aluno], ".");
+	fimPara	
+
+fimPrincipal

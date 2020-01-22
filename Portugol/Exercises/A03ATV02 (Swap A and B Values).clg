@@ -1,0 +1,32 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Receive 2 values A and B, and exchange them using the algorithm;
+//  In 		 : A, B;
+//  Out      : Shows the values of A and B exchanged on the screen;
+
+// Síntese [PT]
+//  Objetivo: Receber 2 valores A e B, e trocá-los por meio do algorítmo;
+//  Entrada : A, B;
+//  Saída   : Mostra os valores de A e B trocados na tela;
+
+principal
+
+	// Statements/Declarações
+	inteiro a, b , aux, aux2;
+
+	// Instructions/Instruções
+	escreva("Forneça o valor de a: ");
+	leia(a);
+	escreva("Forneça o valor de b: ");
+	leia(b);
+	escreval("Neste exato momento o valor de a, conforme você definiu é ", a, ". E o valor de b ", b, ".");
+	aux = a;
+	a = b;
+	b = aux;
+	escreval("Neste outro momento, os valores foram trocados. A se tornou ", a, ". e B se tornou ", b, ".");
+	aux2 = b;
+	b = a;
+	a = aux;
+	escreval("Neste outro momento, os valores foram trocados. A se tornou ", a, ". e B se tornou ", b, ".");
+
+fimPrincipal

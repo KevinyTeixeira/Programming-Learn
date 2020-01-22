@@ -1,0 +1,26 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Algorithm that reads a person's year of birth and the current year, then calculate and write the number of approximate days already lived by that person;
+//  In 		 : Year of Birth, Current Year, Days Lived;
+//  Out      : Approximate days of a person's lived;
+
+// Síntese [PT]
+//  Objetivo: Algoritmo que leia o ano de nascimento de uma pessoa e o ano atual, depois calcule e escreva o número de dias aproximados já vividos por essa pessoa;
+//  Entrada : Ano de Nascimento, Ano Atual, Dias Vividos;
+//  Saída   : Dias apróximados de Vida de uma pessoa;
+
+principal
+
+	// Statements/Declarações
+	inteiro ano_nascimento, ano_atual, dias;
+	texto nome;
+
+	// Instructions/Instruções
+	ano_atual = 2020;
+	nome = "Keviny Teixeira de Jesus";
+	escreval("", nome,", em que ano você nasceu?");
+	leia(ano_nascimento);
+	dias = (ano_atual-ano_nascimento)*30;
+	escreval("Bem... considerando que todos os meses possuam 30 dias. Você está vivo a aproximadamente ", dias, " dias.");
+
+fimPrincipal

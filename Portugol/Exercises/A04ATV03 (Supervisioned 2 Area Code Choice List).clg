@@ -1,0 +1,49 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Display the city corresponding to the area code;
+//  In 		 : Area Code;
+//  Out      : Shows on the screen the name of the city associated with the Area Code;
+
+// Síntese [PT]
+// Objetivo	: Apresentar a cidade correspondente ao DDD;
+// Entrada	: DDD;
+// Saída	: Mostra na tela o nome da cidade associada ao DDD;
+
+principal
+
+	// Statements/Declarações
+	inteiro ddd;
+
+	// Instructions/Instruções
+	//Assignment of Variable ddd/Atribuição da Variável ddd
+	escreva("Console│ Digite o ddd utilizado na sua região: ");
+	leia(ddd);
+	//	se ( mes >= 13 ou mes <= 0) entao
+	//		escreval("Por favor, insira números válidos somente de 1 a 12!");
+	escolha (ddd)
+	caso 11
+		escreval("São Paulo");
+		interrompa;
+	caso 21
+		escreval("Rio de Janeiro");
+		interrompa;
+	caso 31
+		escreval ("Belo Horizonte");
+		interrompa;
+	caso 41
+		escreval("Curitiba");
+		interrompa;
+	caso 48
+		escreval("Florianópolis");
+		interrompa;
+	caso 51
+		escreval("Porto Alegre");
+		interrompa;
+	caso 61
+		escreval("Brasília");
+		interrompa;
+	outroCaso
+		escreval("O código DDD inserido não existe! Tente novamente.");
+	fimEscolha
+
+fimPrincipal

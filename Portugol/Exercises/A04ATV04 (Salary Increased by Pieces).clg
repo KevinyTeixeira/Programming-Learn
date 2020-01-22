@@ -1,0 +1,42 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Algorithm that allows you to enter the number of parts manufactured by a employee and print your salary;
+//  In 		 : Salary;
+//  Out      : Employee salary to be paid;
+
+// Síntese [PT]
+//  Objetivo: Algoritmo que permita entrar com o número de peças fabricadas por um operário e imprima seu salário;
+//  Entrada : Salário;
+//  Saída   : Salário do funcionário a ser pago;
+
+principal
+
+	// Statements/Declarações
+	real salario_bs, acrescimo, pagamento;
+	inteiro pecas;
+
+	// Instructions/Instruções
+	salario_bs = 240.00;
+	acrescimo = 0.00;
+	pagamento = salario_bs+acrescimo;
+	escreva("Insira a quantidade de peças que o funcionário fabricou: ");
+	leia(pecas);
+	se (pecas > 750) entao
+		salario_bs = 350.00;
+		acrescimo = 0.75*pecas;
+		pagamento = salario_bs+acrescimo;
+		se (pecas > 500 e pescas <= 750) entao
+			acrescimo = 0.50*pecas;
+			pagamento = salario_bs+acrescimo;
+			se (pecas <= 500) entao
+				pagamento = salario_bs;
+			fimSe
+		fimSe
+	senao
+		escreval("Algo está errado!!");
+	fimSe
+	escreval("Você fabricou ", pecas," neste mês.");
+	escreval("Receberá um acréscimo de R$ ", acrescimo," neste mês.");
+	escreval("Por fim, seu salário base de R$", salario_bs," com o acréscimo proposto. Será de R$ ", pagamento,"."); 
+
+fimPrincipal

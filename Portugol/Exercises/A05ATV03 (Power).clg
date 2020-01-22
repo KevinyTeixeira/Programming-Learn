@@ -1,0 +1,29 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Calculate the power of the x and y values without using the function;
+//  In 		 : x and y values;
+//  Out      : Show power of x and y values on screen;
+
+// Síntese [PT]
+// Objetivo: Calcular a potência dos valores x e y sem utilizar a função;
+// Entrada : Calores de x e y;
+// Saída   : Potência dos valores de x e y;
+
+principal
+
+	// Statements/Declarações
+	inteiro x, y, potencia, sequencia;
+
+	// Instructions/Instruções
+	escreva("Insira o valor de x: ");
+	leia(x);
+	escreva("Insira o valor de y: ");
+	leia(y);
+	potencia = x;
+	para (sequencia de 1 ate y-1 passo 1) faca
+		potencia = (potencia * x);
+		escreval(sequencia, ". O valor atual de potência é ", potencia,".");
+	fimPara
+	escreval("VALOR FINAL DA POTÊNCIA: ", potencia," .");
+
+fimPrincipal

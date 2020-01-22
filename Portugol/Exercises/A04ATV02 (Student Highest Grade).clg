@@ -1,0 +1,62 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Algorithm that reads the name and grade of the three finalist candidates, determines and prints who was the winner and returns your grade on the screen;
+//  In 		 : Student Name, Student_Note;
+//  Out      : Student winner of the contest, and his respective grade;
+
+// Síntese [PT]
+// Objetivo	: Algoritmo que leia o nome e a nota dos três candidatos finalistas, determine e imprima quem foi o vencedor e a sua nota.
+// Entrada	: Nome do Aluno, Aluno_Nota;
+// Saída	: Aluno vencedor do concurso, juntamente com a nota;
+
+principal
+
+	// Statements/Declarações
+	texto finalista_a, finalista_b, finalista_c, vitorioso;
+	inteiro resultado;
+	real nota_a, nota_b, nota_c;
+
+	// Instructions/Instruções
+/*
+	escreva("Informe o nome do primerio aluno finalista: ");
+	leia(finalista_a);
+	escreva("Informe sua nota: ");
+	leia(nota_a);
+	escreva("Informe o nome do segundo aluno finalista: ");
+	leia(finalista_b);
+	escreva("Informe sua nota: ");
+	leia(nota_b);
+	escreva("Informe o nome do terceiro aluno finalista: ");
+	leia(finalista_c);
+	escreva("Informe sua nota: ");
+	leia(nota_c);
+*/
+
+	// Instructions 2/Instruções 2
+	finalista_a = "Keviny Teixeira de Jesus";
+	nota_a = 50;
+	finalista_b = "Keuvyn Teixeira de Jesus";
+	nota_b = 80;
+	finalista_c = "David Max Teixeira de Jesus";
+	nota_c = 150;
+
+	resultado = 0;
+	se ( nota_a>nota_b) entao
+		resultado = nota_a;
+		vitorioso = finalista_a;
+	senao
+		resultado = nota_b;
+		vitorioso = finalista_b;
+	fimSe
+
+	se (resultado>nota_c) entao
+		resultado = resultado;
+		vitorioso = vitorioso;
+	senao
+		resultado = nota_c;
+		vitorioso = finalista_c;
+	fimSe
+
+	escreval("Parabéns ao ", vitorioso, " com sua nota de ", resultado, ", você é o vencedor!!!");
+
+fimPrincipal
