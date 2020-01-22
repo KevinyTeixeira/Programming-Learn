@@ -19,7 +19,7 @@
 <p align="justify">Meus objetivos para este projeto são:</p>
 
 - [x]	Criar um site intuitivo para ver este projeto. <b style="color:red">(publicado no projeto <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
-- [ ]	Portugol;
+- [x]	Portugol;
 - [ ]	C;
 - [ ]	C++;
 - [ ]	C#;
