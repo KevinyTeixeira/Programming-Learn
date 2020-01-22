@@ -1,0 +1,45 @@
+algoritmo semNome;
+// Synthesis [EN]
+//  Objective: Reproduce the Fibonacci sequence;
+//  In 		 : Number of samples desired;
+//  Out      : Display the Fibonacci sequence on the screen, according to the user's input;
+
+// Síntese [PT]
+//  Objetivo: Reprodizir a sequência de Fibonacci;
+//  Entrada : Quantidade de amostras desejada;
+//  Saída   : Apresentar a sequência de Fibonacci na tela, conforme a entrada do usuário;
+
+principal
+
+	// Statements/Declarações
+	inteiro fn, apoio, cont, num, aux;
+	cont = 0; // responsible for counting launches/responsável pela contagem dos lançamentos;
+	apoio = 1; // responsible for "Maintaining" the value prior to fn/responsável por "Manter" o valor anterior à fn;
+	fn = 1; // initial fibonacci value/valor inicial de fibonacci;
+	aux = apoio; // responsible for "Maintaining" the value prior to fn, and passing it on to "support" before the next fn result/responsável por "Manter" o valor anterior à fn, e repassá-lo ao "apoio" antes do próximo resultado de fn;
+	
+	// Instructions/Instruções
+	escreva("Quantas sequências de Fibonacci deseja ver (O 0 é considerado)? ");
+	leia(num);
+
+	enquanto (cont <= num) faca
+		se (cont == 0) entao // If count is 0, then fn is 0;
+			fn = 0;
+			escreval (cont, "º: ", fn, ";");
+		senao
+			se (cont == 1 ou cont == 2) entao // If count is 1 or 2, then fn is 1;
+				fn = 1;
+				escreval (cont, "º: ", fn, ";");
+			senao
+				escreva (cont, "º: ", fn," + ", apoio, " = ");
+
+				fn = fn + apoio;
+				escreval (fn,";");
+			fimSe
+			apoio = aux; 	// Receives from the aux (which reserved the previous fn result) to perform the next calculation/recebe da aux(que reservou o resultado anterior de fn) para efetuar o próximo cálculo;
+			aux = fn; 		// Reserves the value of fn before the next calculation/Reserva o valor de fn antes do próximo cálculo;
+		fimSe
+		cont = cont +1;
+	fimEnquanto
+	escreval("A sequência de Fibonacci executada ", num ," vezes resulta em ", fn, "!");
+fimPrincipal

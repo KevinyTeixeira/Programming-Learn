@@ -1,0 +1,35 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Identify whether a number is prime or not;
+//  In 		 : Number;
+//  Out      : Show if the number is prime on screen;
+
+// Síntese [PT]
+//  Objetivo: Identificar se um número é primo ou não;
+//  Entrada	: Número;
+//  Saída	: Retorna se o número é primo;
+
+principal
+
+	// Statements/Declarações
+	inteiro numero, cont, i;
+	
+	// Instructions/Instruções
+	//Assignment of the variable value/Atribuição do valor da variável;
+	escreva("Insira o número que deseja verificar se é primo: ");
+	leia(numero);
+	cont = 0;
+	//Checking if number is prime/Verificando se numero é primo;
+	para (i de 1 ate numero passo 1) faca
+		se (numero%i == 0) entao
+			cont = cont + 1;
+		fimSe
+	fimPara
+	se (cont == 2) entao
+		escreval("O número ", numero," é primo!");
+	senao
+		escreval("O número ", numero," não é primo!");
+	fimSe
+
+fimPrincipal
+

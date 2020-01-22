@@ -1,0 +1,35 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Create a vector of 15 positions and you will have to fill the whole vector with whole numbers, and from those numbers you will only take the odd numbers and average those numbers;;
+//  In 		 : Number;
+//  Out      : Show the average of the odd numbers collected;
+
+// Síntese [PT]
+// Objetivo	: Criar um vetor de 15 posições e terá que preencher todo vetor com números inteiros, e desses números só pegará os ímpares e fara a média desses números;
+// Entrada	: Número;
+// Saída	: Retorna a média dos números ímpares coletados;
+
+principal
+
+	// Statements/Declarações
+	inteiro numero[15], soma, media, impares;
+	inteiro i; // Control/Controlador
+
+	// Instructions/Instruções
+	soma = 0;
+	impares = 0;
+	//Assigning numbers to vectors/Atribuição dos números aos vetores;
+	para ( i de 0 ate 14 passo 1 ) faca
+		numero [i] = aleatorio(100);
+		se ( numero[i]%2 != 0) entao
+			escreval("O ", i, "º número é :", numero[i]);
+			soma = soma + numero[i];
+			impares = impares + 1;
+		fimSe
+	fimPara
+	//Displaying the average of the vectors/Exibindo a média dos vetores;
+	media = soma/impares;
+	escreval("SOMA :", soma, "/", impares, " = ", media);
+	escreval("A média dos números ímpares coletados é de :", media);
+
+fimPrincipal

@@ -1,0 +1,54 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Print all the possibilities of winning in the Mega Sena;
+//  In 		 : Dozens;
+//  Out      : Total possibilities;
+
+/*
+A Mega Sena player wants to know all the possible combinations that the game allows and the total combinations.
+
+Each card has 20 dozen
+1 bet contains 6 tens.
+*/
+
+// Síntese [PT]
+//  Objetivo: Imprimir todas as possibilidades de ganhar na Mega Sena;
+//  Entrada : Dezenas;
+//  Saída   : Total de possibilidades;
+
+/*
+Um jogador da Mega Sena deseja saber todas as combinações possíveis que o jogo permite e o total de combinações.
+
+Dados:
+
+Cada cartela tem 20 dezenas
+
+1 aposta contém 6 dezenas.
+*/
+
+principal
+
+	// Statements/Declarações
+	inteiro x, y, z, aux, possibilidades;
+
+	// Instructions/Instruções
+	x = 1; // x acting as the maximum number of possibilities available through the 20 number chart/x atuando como a quantidade máxima de possibilidades disponíveis através da cartela de 20 números;
+	y = 0; // y acting as the maximum number of possibilities available by betting with 6 numbers/y atuando como a quantidade máxima de possibilidades disponíveis através da aposta com 6 números;
+	z = 0; //
+	aux = 0; // aux acting as an auxiliary for the sum of x + y/aux atuando como auxiliar para a soma de x + y;
+	possibilidades = 0; // The number of possibilities found/A quantidade de possibilidades encontradas;
+	enquanto (x <= 15) faca
+		y = 0;
+		escreva (possibilidades + 1,"º Combinação: ");
+		enquanto ( y < 6 ) faca
+			aux = x + y;
+			escreva (aux, ";");
+			y = y + 1;
+		fimEnquanto
+		x = x + 1;
+		possibilidades = possibilidades + 1;
+		escreval ("");
+	fimEnquanto
+	escreva (" O número total de possibilidades são ", possibilidades, "!");
+	
+fimPrincipal

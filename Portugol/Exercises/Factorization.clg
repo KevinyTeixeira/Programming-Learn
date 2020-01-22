@@ -1,0 +1,34 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Test the recursive algorithm;
+//  In 		 : Factorial number;
+//  Out      : Fatored number;
+
+// Síntese [PT]
+//  Objetivo: Testar o algorítmo recursivo;
+//  Entrada : Nº fatorial;
+//  Saída   : Nº fatorado;
+
+principal
+
+	// Statements/Declarações
+	inteiro num, cont, fatorial;
+
+	// Instructions/Instruções
+	//1. Receiving value to be factored/Recebendo valor a ser fatorado;
+	escreva ("Insira o número que deseja fatorar:  ");
+	leia (num);
+
+	//2. Starting number factoring/Iniciando fatoração do Número;
+	cont = 1;
+	enquanto ( cont <= num ) faca
+		se (cont == 1) entao
+			fatorial = 1;
+		senao
+			fatorial = cont * fatorial;
+		fimSe
+		cont = cont + 1;
+	fimEnquanto
+	escreval ("O fatorial de ", num, " é: ", fatorial);
+
+fimPrincipal

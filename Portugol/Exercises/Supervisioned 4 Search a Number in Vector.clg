@@ -1,0 +1,98 @@
+algoritmo kevinyTeixeiraDeJesus;
+// Synthesis [EN]
+//  Objective: Find a number in a vector of 100 sequential numbers from 1 to 100;
+//  In 		 : 100 numbers;
+//  Out      : Number of comparisons and vector number;
+
+/*
+One of the most used activities on the computer is to locate an object (number or string) in a data set.
+
+You should develop an algorithm that allows you to find a number in a vector of 100 sequential numbers from 1 to 100.
+
+Requirements:
+
+The numbers must be generated and stored in a vector at the time of execution.
+The search algorithm to be implemented is the binary search algorithm.
+The user must enter the number he wants to check if it is in the vector.
+The system should criticize whether the user has entered a number between 1 and 100. If he has entered numbers outside this range, the system must inform that he only accepts numbers from 1 to 100.
+It tells you how many comparisons were needed to find the number.
+*/
+
+// Síntese [PT]
+//  Objetivo: Encontrar um número em um vetor de 100 números sequenciais de 1 a 100;
+//  Entrada : 100 números;
+//  Saída   : Quantidade de Comparações e nº do vetor;
+
+/*
+Uma das atividades mais usadas no computador é localizar um objeto (número ou cadeia de caracteres) em um conjunto de dados.
+
+Você deverá desenvolver um algoritmo que permita encontrar um número em um vetor de 100 números sequenciais de 1 a 100.
+
+Requisitos:
+
+Os números deverão ser gerados e armazenados em um vetor no momento da execução.
+O algoritmo de busca a ser implementado é o de busca binária.
+O usuário deverá entrar com o número que deseja verificar se está no vetor.
+O sistema deve criticar se o usuário digitou número entre 1 e 100. Caso ele tenha digitado números fora desse intervalo o sistema deverá informar que só aceita números de 1 a 100.
+Informa quantas comparações foram necessárias para localizar o número.
+*/
+
+principal
+
+	// Statements/Declarações
+	inteiro inicio; // cont/contador
+	inteiro meio, final, num_busca, comparacoes, numero[101];
+	logico dado_encontrado;
+
+	// Instructions/Instruções
+	comparacoes = 0;
+	inicio = 1;
+	final = 100;
+	numero[inicio] = 1;
+	dado_encontrado = falso;
+	//1. Creating values associated with arrays/Criando Valores Associados aos Arrays
+	enquanto (inicio < final)  faca // 1 < final
+		inicio = inicio + 1;
+		numero[inicio] = inicio;
+	fimEnquanto
+	//2. Select the number you want to search/Selecione o número que deseja procurar
+	faca
+		escreva("Qual número deseja verificar, somente de [1..100]: ");
+		leia(num_busca);
+		se ( num_busca < 1 ou num_busca > final) entao
+			escreval("Só é permitido valores que estejam entre 1 e 100. Por favor, tente novamente...");
+		fimSe
+	enquanto ( num_busca < 1 ou num_busca > final);
+	//3. Comparing Values in Arrays/Comparando Valores nos Arrays
+	inicio = 1;
+	escreval("- Procurando o valor ", num_busca," entre os vetores [1..100];");
+	enquanto ( inicio <= final e nao dado_encontrado ) faca
+		comparacoes = comparacoes + 1;
+		escreval("*", comparacoes, "º TENTATIVA;");
+		meio = (inicio + final)/2;
+		escreval("- Inicio = (", inicio, ").");
+		escreval("- Meio = (", meio, ")");
+		escreval("- Final = (", final, ").");
+		se (numero[meio] == num_busca ) entao
+			dado_encontrado = verdadeiro;
+			escreval("RESULTADO: dado encontrado.");
+			escreval("- Meio é (", numero[meio], "), o nº procurado é (", num_busca, ");");
+		senao
+			escreval("RESULTADO: dado não encontrado: ");
+			se ( numero[meio] > num_busca ) entao
+				final = meio - 1;
+				escreval("- Meio = (", numero[meio], ").");
+				escreval("- Meio > (", num_busca, ").");
+				escreval("- Final = Meio - 1; Final (", final, ").");
+			senao
+				inicio = meio + 1;
+				escreval("- Meio = (", numero[meio], ").");
+				escreval("- Meio < (", num_busca, ").");
+				escreval("- Início = Meio + 1; Final (", final, ").");
+			fimSe
+		fimSe
+	fimEnquanto
+	//4. Total comparisons used/Total de comparações utilizadas
+	escreva("A quantidade de comparações utilizadas para encontrar o número foi de ", comparacoes, ". O número está localizado no vetor ", meio, "!");
+
+fimPrincipal
