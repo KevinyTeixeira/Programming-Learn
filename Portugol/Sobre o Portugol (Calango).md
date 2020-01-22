@@ -1,4 +1,4 @@
-<p align="justify">Veja em <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/Portugol-Branch/Portugol/About%20Portugol.md">English</a>.
+<p align="justify">Veja em <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/Portugol-Branch/Portugol/About%20Portugol%20(Calango).md">English</a>.
 
 <p align="justify">As informações correspondentes ao <b>Calango</b> foram retiradas do site oficial da <b><a href="https://ucb.catolica.edu.br/portal/">Universidade Católica de Brasília (UCB)</a></b>, você pode saber mais clicando neste <a href="https://cae.ucb.br/conteudo/programar/algoritmoCalango/new_ambientedealgoritmobcc.html">link</a>.</p>
 
