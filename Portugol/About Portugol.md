@@ -1,30 +1,8 @@
-<div align="center">
-  <a href="https://kevinyteixeira.github.io/My-HomePage.github.io/" target="_blank"><img src="https://freepngimg.com/download/www/13-2-www-png-images.png" style="max-width: 100%;" width="230" height="210"></a>
+<center>See in <a href="https://github.com/KevinyTeixeira/Programming-learn/blob/1_JavaLearning/Atividades/Questions%201%20-%20Bytecode%2C%20OOP%2C%20Variable%2C%20if%2C%20for%2C%20Block%2C%20TryTable.md">Português</a>.<br></center>
 
-  See this readme in <a href="https://github.com/KevinyTeixeira/Programming-learn/blob/master/github/README-pt-BR.md">Português</a>.
-</div>
+<p align="justify">The information below about <b>Calango</b> was taken from the official website of <b>Universade Católica de Brasília (UCB)</b> <i><a href="https://ucb.catolica.edu.br/portal/">[Catholic University of Brasilia]</a></i>, you can learn more by clicking on this <a href="https://cae.ucb.br/conteudo/programar/algoritmoCalango/new_ambientedealgoritmobcc.html">link</a>.</p>
 
-# Programming Learn
-<p align="justify">This is a repository to store my lessons, click above to access the website.</p>
+### What is It?
 
-### About this project
-
-<p align="justify">This project is organized as follows: the <b>master branch</b> presents an overview of all the subjects of the project, while other branches are created dealing with specific themes. That is, to see specific subjects, visit the <b>specific branch</b>.</p>
-
-### About me
-
-<p align="justify">I am currently studying at the <b>Universade Católica de Brasília (UCB)</b> <i><a href="https://ucb.catolica.edu.br/portal/">[Catholic University of Brasilia]</a></i> and studying <b><i>Systems Analysis and Development</i></b>. I have always been very ambitious with regard to everything that involves technology, I like programming, to understand hardware and software of the different devices on the market, the impacts that result in the performance of the devices, to have mastery over the technology that is available. I am very interested in subjects such as Artificial Intelligence, IOT, Data Science, and areas that generate visible and perceptible results with ease, practicality. Even without having enough knowledge in the field, I have already ventured into making adjustments to LUA programming codes for a game that I tried to recreate as a hobby project, I have also ventured into using creativity to try to create a modified version of Super Mario World by pure fun!</p>
-
-### What to do?
-<p align="justify">My objective sets are:</p>
-
-- [x]	Create an intuitive website to see this project. <b style="color:red">(published by project <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
-- [ ]	Learn Portugol;
-- [ ]	Learn C;
-- [ ]	Learn C++;
-- [ ]	Learn C#;
-- [ ]	Learn Java;
-- [ ]	Learn JavaScript;
-- [ ]	Learn Python;
-- [ ]	Learn PHP;
-- [ ]	Learn Ruby;
+<p align="justify"><b>Calango</b> is a pseudocode interpreter, this pseudocode being based on the natural language of Brazilian communication (Portuguese). An interpreter corresponds to software responsible for translating a specific language into another language code that the computer understands.</p>
+<p align="justify">It is also a free programming environment, being a public domain software developed by <b>Claéber Felinto and Victor Girotto</b>. Therefore, no license is required for legal installation on your computer.</p>
