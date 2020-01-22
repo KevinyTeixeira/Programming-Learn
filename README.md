@@ -19,7 +19,7 @@
 <p align="justify">My objective sets are:</p>
 
 - [x]	Create an intuitive website to see this project. <b style="color:red">(published by project <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
-- [ ]	Learn Portugol;
+- [x]	Learn Portugol;
 - [ ]	Learn C;
 - [ ]	Learn C++;
 - [ ]	Learn C#;
