@@ -9,7 +9,7 @@
 
 ### Sobre este projeto
 
-<p align="justify">Este projeto é organizado da seguinte forma: a <b>master branch</b> apresenta uma visão geral de todos os assuntos do projeto, enquanto outras branchs são criadas para lidar com temas específicos. Ou seja, para ver assuntos específicos, visite a <b>branch específica</b>.</p>
+<p align="justify">Este projeto é organizado da seguinte forma: a <b>master branch</b> apresenta uma visão geral de todos os assuntos do projeto, enquanto outras branchs são criadas para lidar com temas específicos enquanto não forem finalizados. Ou seja, para ver assuntos específicos que ainda não tenham sido finalizados, visite a <b>branch específica</b>.</p>
 
 ### Sobre mim
 
