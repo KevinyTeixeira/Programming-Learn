@@ -9,7 +9,7 @@
 
 ### About this project
 
-<p align="justify">This project is organized as follows: the <b>master branch</b> presents an overview of all the subjects of the project, while other branches are created dealing with specific themes. That is, to see specific subjects, visit the <b>specific branch</b>.</p>
+<p align="justify">This project is organized as follows: the <b>master branch</b> presents an overview of all the subjects of the project, while other branches are created dealing with specific themes that have not yet been finalized. That is, to see specific subjects that have not yet been finalized, visit the <b>specific branch</b>.</p>
 
 ### About me
 
@@ -19,7 +19,7 @@
 <p align="justify">My objective sets are:</p>
 
 - [x]	Create an intuitive website to see this project. <b style="color:red">(published by project <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
-- [ ]	Learn Portugol;
+- [x]	Learn Portugol;
 - [ ]	Learn C;
 - [ ]	Learn C++;
 - [ ]	Learn C#;
