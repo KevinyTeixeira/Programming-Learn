@@ -1,0 +1,20 @@
+/******************************************************************************
+[EN] Synthesis
+Objetivo: #;
+In      : #;
+Out     : #;
+
+[PT] Síntese
+Objetivo: #;
+Entrada	: #;
+Saída	: #;
+
+Autor: Keviny Teixeira
+*******************************************************************************/
+
+#include <stdio.h>
+#include <locale.h> // Required to include the Portuguese language.
+
+int main() {
+	
+}
