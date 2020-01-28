@@ -17,4 +17,11 @@ Autor: Keviny Teixeira
 
 int main() {
 	
+	// Statements/Declarações
+	
+	setlocale(LC_ALL,"");// Set current user location default of SO/Adota a localização padrão do SO
+	
+	printf("*INICIANDO PROGRAMA EM C;\n");
+	
+	
 }
