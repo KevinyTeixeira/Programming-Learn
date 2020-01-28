@@ -1,4 +1,3 @@
-```c
 /******************************************************************************
 [EN] Synthesis
 Objetivo: manipulate a user-supplied number in several different formats;
@@ -58,4 +57,3 @@ int main() {
 	
 	return 0;
 }
-```
