@@ -32,7 +32,7 @@ int main() {
 	printf("\n> Há duas formas desta troca ser feita, use 1 para o primeiro método, ou 2 para o segundo método:");
 	printf("\nNo 1º usamos uma varíavel auxiliar (aux), que guardará o valor de A e posteriormente a declarará à variável B.");
 	printf("\nNo 2º método, usamos apenas cálculos matemáticos para inverter os valores. \nEscolha (1/2): ");
-	scanf("%d", &mtd);
+	scanf("%d", &mtd); fflush(stdin);
 	printf("\n> No presente momento os valores, os valores são: ");	
 	printf("\nA = %d;", a);	
 	printf("\nB = %d;", b);
@@ -45,8 +45,8 @@ int main() {
 		printf("\n> AUX = A ∴ aux = %d;", aux);
 		a = b;
 		printf("\n> A = B ∴ A = %d;", a);
-		printf("\n> B = B ∴ A = %d;", a);
 		b = aux;
+		printf("\n> B = AUX ∴ B = %d;", b);
 		printf("\n>Valor trocados com sucesso!"); }
 	else if (mtd == 2) {
 		//Swaping Data/ Trocando dados
