@@ -32,6 +32,7 @@ int main() {
 	printf("> Insira o número real que deseja avaliar as formatações: ");
 	scanf("%f", &numero_real); fflush(stdin);
 	printf("> Insira seu nome: ");
+	fgets(nome, 20, stdin);
 	scanf("%s", nome); fflush(stdin);
 	printf("\n");
 	
