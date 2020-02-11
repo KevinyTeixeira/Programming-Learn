@@ -15,7 +15,6 @@ Data: 11/02/2020
 
 #include <stdio.h>
 #include <locale.h> // Required to include the Portuguese language.
-#include <stdlib.h> // Required to use system ("pause") function.
 
 int main () {
 	
