@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: swap A and B variables;
-In      : A and B values;
-Out     : swap A and B variables;
+Objective: swap A and B variables;
+In       : A and B values;
+Out      : swap A and B variables;
 
 [PT] Síntese
-Objetivo: trocar valores das variáveis A e B;
-Entrada	: valores de A e B;
-Saída	: valores de A e B trocados;
+Objetivo : trocar valores das variáveis A e B;
+Entrada	 : valores de A e B;
+Saída	 : valores de A e B trocados;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

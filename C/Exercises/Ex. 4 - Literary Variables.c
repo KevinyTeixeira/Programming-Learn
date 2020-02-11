@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: working with literary variables with scanf and fgets;
-In      : name;
-Out     : show names on screen using scanf and fgtes;
+Objective: working with literary variables with scanf and fgets;
+In       : name;
+Out      : show names on screen using scanf and fgtes;
 
 [PT] Síntese
-Objetivo: trabalhar com variáveis literarias com scanf e fgets;
-Entrada	: nome;
-Saída	: mostrar na tela nomes usando scanf e fgtes;
+Objetivo : trabalhar com variáveis literarias com scanf e fgets;
+Entrada	 : nome;
+Saída	 : mostrar na tela nomes usando scanf e fgtes;
 
 Autor: Keviny Teixeira
 

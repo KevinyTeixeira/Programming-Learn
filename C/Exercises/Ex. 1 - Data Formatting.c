@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: manipulate a user-supplied number in several different formats;
-In      : number;
-Out     : show the number on the screen with the different formats;
+Objective: manipulate a user-supplied number in several different formats;
+In       : number;
+Out      : show the number on the screen with the different formats;
 
 [PT] Síntese
-Objetivo: manipular um número fornecido pelo usuário em vários formatos diferentes;
-Entrada	: número;
-Saída	: mostrar na tela o número com as diferentes formatações;
+Objetivo : manipular um número fornecido pelo usuário em vários formatos diferentes;
+Entrada	 : número;
+Saída	 : mostrar na tela o número com as diferentes formatações;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

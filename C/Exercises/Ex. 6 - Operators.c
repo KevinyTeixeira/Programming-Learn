@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: use the operators (+, -, *, /,%, -, ++) in programming;
-In      : number;
-Out     : show the results of operations on the screen;
+Objective: use the operators (+, -, *, /,%, -, ++) in programming;
+In       : number;
+Out      : show the results of operations on the screen;
 
 [PT] Síntese
-Objetivo: utilizar os operadores (+, - ,*, /, %, --, ++) na programação;
-Entrada	: número;
-Saída	: mostrar na tela os resultados das operações;
+Objetivo : utilizar os operadores (+, - ,*, /, %, --, ++) na programação;
+Entrada	 : número;
+Saída	 : mostrar na tela os resultados das operações;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

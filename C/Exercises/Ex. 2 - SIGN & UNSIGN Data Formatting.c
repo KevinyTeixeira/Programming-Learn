@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: practice variables with SIGNED, UNSIGNED, SHORT and LONG modifiers;
-In      : int;
-Out     : show on the screen all the characteristics of the modifiers;
+Objective: practice variables with SIGNED, UNSIGNED, SHORT and LONG modifiers;
+In       : int;
+Out      : show on the screen all the characteristics of the modifiers;
 
 [PT] Síntese
-Objetivo: praticar variáveis com modificadores SIGNED, UNSIGNED, SHORT e LONG;
-Entrada	: inteiros;
-Saída	: mostrar na tela todos as características dos modificadores;
+Objetivo : praticar variáveis com modificadores SIGNED, UNSIGNED, SHORT e LONG;
+Entrada	 : inteiros;
+Saída	 : mostrar na tela todos as características dos modificadores;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

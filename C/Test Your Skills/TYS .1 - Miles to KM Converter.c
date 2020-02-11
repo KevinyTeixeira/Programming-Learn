@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: create a converter from miles to kilometers;
-In      : miles quantity;
-Out     : show on screen the value in kilometers corresponding to the miles entered;
+Objective: create a converter from miles to kilometers;
+In       : miles quantity;
+Out      : show on screen the value in kilometers corresponding to the miles entered;
 
 [PT] Síntese
-Objetivo: criar um conversor de milhas para quilômetros;
-Entrada	: quantidade de milhas;
-Saída	: mostrar na tela o valor em quilômetros correspondente as milhas inseridas;
+Objetivo : criar um conversor de milhas para quilômetros;
+Entrada	 : quantidade de milhas;
+Saída	 : mostrar na tela o valor em quilômetros correspondente as milhas inseridas;
 
 Autor: Keviny Teixeira
 Data: 11/02/2020

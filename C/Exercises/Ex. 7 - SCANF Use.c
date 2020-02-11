@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: SCANF (Name and Numbers), and display their memory addresses;
-In      : name, number;
-Out     : print data and present their memory addresses;
+Objective: SCANF (Name and Numbers), and display their memory addresses;
+In       : name, number;
+Out      : print data and present their memory addresses;
 
 [PT] Síntese
-Objetivo: SCANF (Nome e Números), e apresentar seus endereços de memória;
-Entrada	: nome, número;
-Saída	: imprimir dados e apresentar seus endereços de memória;
+Objetivo : SCANF (Nome e Números), e apresentar seus endereços de memória;
+Entrada	 : nome, número;
+Saída	 : imprimir dados e apresentar seus endereços de memória;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

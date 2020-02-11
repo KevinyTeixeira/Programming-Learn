@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: calculate the hypotenuse of a triangle based on the cathetus reported by the user;
-In      : cathetus a, cathetus b;
-Out     : show on screen the hypotenuse of the triangle;
+Objective: calculate the hypotenuse of a triangle based on the cathetus reported by the user;
+In       : cathetus a, cathetus b;
+Out      : show on screen the hypotenuse of the triangle;
 
 [PT] Síntese
-Objetivo: calcular a hipotenusa de um triângulo com base nos catetos informados pelo usuário;
-Entrada	: cateto a, cateto b;
-Saída	: mostrar na tela a hypotenusa do triângulo;
+Objetivo : calcular a hipotenusa de um triângulo com base nos catetos informados pelo usuário;
+Entrada	 : cateto a, cateto b;
+Saída	 : mostrar na tela a hypotenusa do triângulo;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

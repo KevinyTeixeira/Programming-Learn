@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: use the Getch command in the program;
-In      : key;
-Out     : the input key;
+Objective: use the Getch command in the program;
+In       : key;
+Out      : the input key;
 
 [PT] Síntese
-Objetivo: utilizar o comando Getch no programa;
-Entrada	: tecla;
-Saída	: a tecla de entrada;
+Objetivo : utilizar o comando Getch no programa;
+Entrada	 : tecla;
+Saída	 : a tecla de entrada;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

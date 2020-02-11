@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: use the property "const" when declaring the variable to calculate the perimeter and circumference of an area.;
-In      : pi, radius;
-Out     : show the area, perimeter and circumference on the screen;
+Objective: use the property "const" when declaring the variable to calculate the perimeter and circumference of an area.;
+In       : pi, radius;
+Out      : show the area, perimeter and circumference on the screen;
 
 [PT] Síntese
-Objetivo: utilizar a propriedade "const" ao declarar a variável para cálcular o perímetro e a circunferência de uma área;
-Entrada	: pi, raio;
-Saída	: mostrar na tela a área, o perímetro e a circunferência;
+Objetivo : utilizar a propriedade "const" ao declarar a variável para cálcular o perímetro e a circunferência de uma área;
+Entrada	 : pi, raio;
+Saída	 : mostrar na tela a área, o perímetro e a circunferência;
 
 Autor: Keviny Teixeira
 *******************************************************************************/

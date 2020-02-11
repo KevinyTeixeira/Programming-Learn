@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: register data for an airline customer;
-In      : name, sex, cpf, phone ddd, bagsQtd, bgasTotalWeight;
-Out     : show data on screen;
+Objective: register data for an airline customer;
+In       : name, sex, cpf, phone ddd, bagsQtd, bgasTotalWeight;
+Out      : show data on screen;
 
 [PT] Síntese
-Objetivo: cadastrar dados de um cliente da companhia aérea;
-Entrada	: nome, sexo, cpf, telefone ddd, qtdMalas, psTotaldeMalas;
-Saída	: mostrar os dados na tela;
+Objetivo : cadastrar dados de um cliente da companhia aérea;
+Entrada	 : nome, sexo, cpf, telefone ddd, qtdMalas, psTotaldeMalas;
+Saída	 : mostrar os dados na tela;
 
 Autor: Keviny Teixeira
 *******************************************************************************/
