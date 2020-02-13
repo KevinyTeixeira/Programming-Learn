@@ -61,7 +61,8 @@ int main () {
     	printf("> %d não é um ano bissexto. \n\n", ano); // apresenta na tela caso condição seja verdadeira.
 	}
 	
-	// Printing results and ending the program/Imprimindo resultados e finalizando o programa
+	// Ending the program/Finalizando o programa
+	printf("A execução do programa foi encerrada.");
 	return 0;
 
 }
