@@ -10,7 +10,7 @@ Entrada	 : valores da matriz [3][4];
 Saída	 : mostrar na tela a matriz gerada pelo usuário e a matriz transposta gerada pelo programa;
 
 Autor: Keviny Teixeira
-Data: 12/02/2020
+Data: 13/02/2020
 *******************************************************************************/
 
 #include <stdio.h>
