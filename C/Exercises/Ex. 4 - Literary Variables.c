@@ -1,13 +1,13 @@
 /******************************************************************************
 [EN] Synthesis
-Objetivo: working with literary variables with scanf and fgets;
-In      : name;
-Out     : show names on screen using scanf and fgtes;
+Objective: working with literary variables with scanf and fgets;
+In       : name;
+Out      : show names on screen using scanf and fgtes;
 
 [PT] Síntese
-Objetivo: trabalhar com variáveis literarias com scanf e fgets;
-Entrada	: nome;
-Saída	: mostrar na tela nomes usando scanf e fgtes;
+Objetivo : trabalhar com variáveis literarias com scanf e fgets;
+Entrada	 : nome;
+Saída	 : mostrar na tela nomes usando scanf e fgtes;
 
 Autor: Keviny Teixeira
 
@@ -32,5 +32,6 @@ int main() {
 	printf("\n> Esta atribuição será feita pelo SCANF. Insira somente seu nome: ");
 	scanf("%s", nome); 	fflush(stdin); // SCANF assigning a name to the variable "name"/SCANF atribundo um nome à variável "nome"
 	printf("> SCANF: %s.", nome);
+	return 0;
 	
 }
