@@ -20,7 +20,7 @@
 
 - [x]	Create an intuitive website to see this project. <b style="color:red">(published by project <a href="https://github.com/KevinyTeixeira/My-HomePage.github.io">My-HomePage.github.io</a>)</b>;
 - [x]	Learn Portugol;
-- [ ]	Learn C;
+- [x]	Learn C;
 - [ ]	Learn C++;
 - [ ]	Learn C#;
 - [ ]	Learn Java;
