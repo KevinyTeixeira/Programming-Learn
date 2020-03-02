@@ -10,18 +10,12 @@ Entrada : sem entrada;
 Saída   : mostrar na tela as boas vindas com o nome do usuário;
 
 Autor: Keviny Teixeira
-
 *******************************************************************************/
 
-#include <stdio.h>
-#include <locale.h> // Required to include the Portuguese language.
-
-int main()  {
-    
-    setlocale(LC_ALL,"");
-    printf("*INICIANDO PROGRAMA EM C;");
-    printf("\n> [EN] Hello World! Keviny, welcome to C language!");
-    printf("\n> [PT] Olá Mundo! Keviny, seja bem vindo à linguagem C!");
-    return 0;
-    
+public class helloWorld-JAVA{
+	
+	public static void main (String args[]){
+		System.out.printf("\n> [EN] Hello World! Keviny, welcome to JAVA language!");
+		System.out.printf("\n> [PT] Olá Mundo! Keviny, seja bem vindo à linguagem JAVA!");
+	}
 }
