@@ -26,7 +26,7 @@ O Java é subdivido em três grandes partes, no que se refere à aplicabilidade.
 
 ### Como o JAVA funciona?
 O processo desde o desenvolvimento até a utilização do usuário podem ser dividido em 4 etapas.
-**1º:** O desenvolvedor cria o pograma em linguagem JAVA;
-**2º:** O desenvolvedor salva o código com a extensão **.java**;
-**3º:** Através do comando *javac* no prompt de comandos (possibilitado pela instalação da JDK), o arquivo **.java** é compilado gerando um arquivo **.class** (conhecido como *bytecode*) destinado à máquina virtual;
-**4º:** Ao executar o programa **.class** através do comando *java nomedoarquivoclass*, a JVM é invocada para interpretar o arquivo gerado, e o resultado da interpretação é a aplicação sendo executada;
+- **1º:** O desenvolvedor cria o pograma em linguagem JAVA;
+- **2º:** O desenvolvedor salva o código com a extensão **.java**;
+- **3º:** Através do comando *javac* no prompt de comandos (possibilitado pela instalação da JDK), o arquivo **.java** é compilado gerando um arquivo **.class** (conhecido como *bytecode*) destinado à máquina virtual;
+- **4º:** Ao executar o programa **.class** através do comando *java nomedoarquivoclass*, a JVM é invocada para interpretar o arquivo gerado, e o resultado da interpretação é a aplicação sendo executada;
