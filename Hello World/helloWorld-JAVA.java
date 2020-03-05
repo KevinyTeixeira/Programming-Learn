@@ -12,7 +12,7 @@ Saída   : mostrar na tela as boas vindas com o nome do usuário;
 Autor: Keviny Teixeira
 *******************************************************************************/
 
-public class helloWorld-JAVA{
+public class helloWorld_JAVA{
 	
 	public static void main (String args[]){
 		System.out.printf("\n> [EN] Hello World! Keviny, welcome to JAVA language!");
