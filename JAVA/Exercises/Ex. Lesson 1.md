@@ -1,10 +1,10 @@
-<a href="https://github.com/KevinyTeixeira/Programming-learn/blob/1_JavaLearning/Atividades/Question%C3%A1rio%201%20-%20Bytecode%2C%20OOP%2C%20Variable%2C%20if%2C%20for%2C%20Block%2C%20TryTable.md">Português</a><br>
+<p align="justify">See in <a href="https://github.com/KevinyTeixeira/Programming-Learn/edit/JAVA-Branch/JAVA/Exercises/Ex.%20Lesson%202.md">Português</a><br>
 
-> The activities section of each lesson available in the UCB material aims to consolidate the student's learning regarding the studied and discussed contents. Therefore, the activities developed by UCB will be kept in this file together with my respective answers. <br>
+> The activities section of each lesson available in the UCB material aims to consolidate the student's learning regarding the studied and discussed contents. Therefore, the activities developed by UCB will be kept in this file together with my respective answers.<br>
 
 ### LESSON 1: Java Presentation
 **1. Java has an important feature, which is to be platform independent. Explain, in your own words, what this feature is and how Java provides it.** <br>
-<p align="justify">It is a characteristic that aims to create an intermediate environment between the Operating System and the application, this environment called the Java Virtual Machine (JVM). In this way, all java code is processed in the JVM, making Java applications multiplatform.</p>
+<p align="justify">It is a characteristic that aims to create an intermediate environment between the Operating System and the Application, this environment called the Java Virtual Machine (JVM). In this way, all java code is processed in the JVM, making Java applications multiplatform.</p>
 
 **2. Using a basic text editor, such as notepad, create a .java file called ExercicioDois.java, which should solve the following problem: read a temperature in degrees Celsius and have it converted to degrees Fahrenheit. The conversion formula is: FAR = (9 * CEL + 160) / 5, with FAR being the temperature in Fahrenheit and CEL in Celsius.** 
 
@@ -36,7 +36,7 @@ public class lesson1_ex2{
 }
 ```
 
-**3. Using a basic text editor, such as notepad, create a .java file called ExercicioTres.java, which should solve the following problem: receive two notes from the user and perform the arithmetic mean of these values. As an output, present the informed grades, the average and whether the student achieved approval or not. Don't forget to watch the video for this class first.** <br>
+**3. Using a basic text editor, such as notepad, create a .java file called ExercicioTres.java, which should solve the following problem: receive two notes from the user and perform the arithmetic mean of these values. As an output, present the informed grades, the average and whether the student achieved approval or not.** <br>
 
 <i>The source code for this answer is stored on github under the name <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/lesson1_ex3.java">lesson1_ex3.java</a>.</i><br>
 
