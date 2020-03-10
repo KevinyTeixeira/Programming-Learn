@@ -15,7 +15,7 @@ QUESTION FROM LESSON 1, EXERCISE 2;
 
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
 
-public class lesson1_ex2{
+public class Lesson1_ex2{
 	
 	public static void main (String args[]){
 

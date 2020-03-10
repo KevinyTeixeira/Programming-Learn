@@ -15,7 +15,7 @@ QUESTION FROM LESSON 1, EXERCISE 3;
 
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
 
-public class lesson1_ex3{
+public class Lesson1_ex3{
 
 	public static void main (String args[]){
 
@@ -32,7 +32,7 @@ public class lesson1_ex3{
     nota_2 = new Scanner(System.in).nextDouble( );
 
 	// Calculating Arithmetic Mean and Generating result/Calculando Média Aritmética e Gerando Resultado
-    System.out.printf("MEDIA = (%.2f + %.2f)/2;", nota_1, nota_2);
+    System.out.printf("MÉDIA = (%.2f + %.2f)/2;", nota_1, nota_2);
 	media = (nota_1 + nota_2) / 2;
 	if (media >= 5) {
 		resultado = "O aluno foi aprovado!"; // The student passed/O estudante foi aprovado
@@ -43,7 +43,7 @@ public class lesson1_ex3{
 	// Printing results and ending the program/Imprimindo resultados e finalizando o programa
     System.out.printf("\nA primeira nota do aluno foi: %.2f;", nota_1);
     System.out.printf("\nA segunda nota do aluno foi: %.2f;", nota_2);
-    System.out.printf("\nA media resultante: %.2f;", media);
+    System.out.printf("\nA média resultante É: %.2f;", media);
     System.out.printf("\n");
     System.out.print(resultado);
 
