@@ -36,8 +36,12 @@ public class Lesson2_ex2 {
 		TxDeJuros = new Scanner(System.in).nextDouble();
 
 		// Calculating Interest/Calculando Juros
+		System.out.println("Juros = Taxa de Juros * Tempo;");
+		System.out.printf("Juros = %.2f * %.2f * %d;\n", Capital, TxDeJuros, Tempo);
 		Juros = Capital * TxDeJuros * Tempo;
-		Total = Capital * Juros;
+		System.out.println("Total = Capital + Juros;");
+		System.out.printf("Total = %.2f + %.2f;\n", Capital, Juros);
+		Total = Capital + Juros;
 		
 		// Printing results and ending the program/Imprimindo resultados e finalizando o programa
 		System.out.printf("\nVocê informou que sua dívida é: %.2f reais;\n", Capital);
