@@ -1,4 +1,4 @@
-<p align="justify">See in <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/Ex.%20Lesson%202%20%5Bpt-br%5D.md">Português</a><br>
+<p align="justify">See in <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/Ex.%20Lesson%202%20%5Bpt-br%5D.md">Português.</a><br>
 
 > The activities section of each lesson available in the UCB material aims to consolidate the student's learning regarding the studied and discussed contents. Therefore, the activities developed by UCB will be kept in this file together with my respective answers.<br>
 
