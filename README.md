@@ -23,7 +23,7 @@
 - [x]	Learn C;
 - [ ]	Learn C++;
 - [ ]	Learn C#;
-- [ ]	Learn Java;
+- [x]	Learn Java;
 - [ ]	Learn JavaScript;
 - [ ]	Learn Python;
 - [ ]	Learn PHP;
