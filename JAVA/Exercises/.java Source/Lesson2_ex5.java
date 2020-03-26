@@ -24,7 +24,7 @@ public class Lesson2_ex5 {
 	public static void main (String args[]) {
 	
 		// Statementes/Declarações
-		int Numero[] = new int [500], Maior = 0, Menor = 0, Soma = 0;
+		int Numero[] = new int [500], Maior = 0, Menor = 999999999, Soma = 0;
 		double Media;
 
 		// Collecting Data/Coletando Dados
@@ -32,17 +32,15 @@ public class Lesson2_ex5 {
 			do {
 			System.out.println("Informe o número que irá compor o vetor" + "[" + i + "]: ");
 			Numero[i] = new Scanner(System.in).nextInt();
-			if (Numero[i] < 0) { //Identifying if this is the high number/Identificando se é o menor número
+			if (Numero[i] < 0) { //Loop if number is lower then 0/Gera um Loope se o número for menor que 0
 				System.out.println("Você não pode inserir números que sejam menores do que 0.");
 			}
 			}while (Numero[i] < 0);
-
-			//Numero[i] = random.nextInt(10);
 			if (Menor > Numero[i]) { //Identifying if this is the lower number/Identificando se é o menor número
 				Menor = Numero[i];
 				System.out.println("O menor número agora passa a ser: " + Menor + ";");
 			}
-			if (Maior < Numero[i]) { //Identifying if this is the high number/Identificando se é o menor número
+			if (Maior < Numero[i]) { //Identifying if this is the high number/Identificando se é o maior número
 				Maior = Numero[i];				
 				System.out.println("O maior número agora passa a ser: " + Maior + ";");
 			}
