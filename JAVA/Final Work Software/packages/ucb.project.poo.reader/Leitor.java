@@ -1,4 +1,4 @@
-package finalProjectSoftware;
+package ucb.project.poo.reader;
 
 import java.util.Scanner;
 
