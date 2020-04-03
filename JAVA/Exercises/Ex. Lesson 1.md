@@ -8,7 +8,7 @@
 
 **2. Using a basic text editor, such as notepad, create a .java file called ExercicioDois.java, which should solve the following problem: read a temperature in degrees Celsius and have it converted to degrees Fahrenheit. The conversion formula is: FAR = (9 * CEL + 160) / 5, with FAR being the temperature in Fahrenheit and CEL in Celsius.** 
 
-<i>The source code for this answer is stored on github under the name <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/lesson1_ex2.java">lesson1_ex2.java</a>.</i><br>
+<i>The source code for this answer is stored on github under the name <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/Lesson1_ex2.java">Lesson1_ex2.java</a>.</i><br>
 
 ```java
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
@@ -38,7 +38,7 @@ public class lesson1_ex2{
 
 **3. Using a basic text editor, such as notepad, create a .java file called ExercicioTres.java, which should solve the following problem: receive two notes from the user and perform the arithmetic mean of these values. As an output, present the informed grades, the average and whether the student achieved approval or not.** <br>
 
-<i>The source code for this answer is stored on github under the name <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/lesson1_ex3.java">lesson1_ex3.java</a>.</i><br>
+<i>The source code for this answer is stored on github under the name <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/Lesson1_ex3.java">Lesson1_ex3.java</a>.</i><br>
 
 ```java
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
