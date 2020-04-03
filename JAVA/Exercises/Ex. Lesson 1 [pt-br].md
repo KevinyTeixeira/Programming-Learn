@@ -8,7 +8,7 @@
 
 **2. Fazendo uso de um editor de texto básico, como o bloco de notas, crie um arquivo .java chamado ExercicioDois.java, que deverá resolver o seguinte problema: ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: FAR = (9 * CEL + 160) / 5, sendo FAR a temperatura em Fahrenheit e CEL em Celsius.** 
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/lesson1_ex2.java">lesson1_ex2.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/Lesson1_ex2.java">Lesson1_ex2.java</a>.</i><br>
 
 ```java
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
@@ -38,7 +38,7 @@ public class lesson1_ex2{
 
 **3. Fazendo uso de um editor de texto básico, como o bloco de notas, crie um arquivo .java chamado ExercicioTres.java, que deverá resolver o seguinte problema: receber do usuário duas notas e realizar a média aritmética desses valores. Como saída, apresentar as notas informadas, a média e se o estudante alcançou aprovação ou não.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/lesson1_ex3.java">lesson1_ex3.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%201/Lesson1_ex3.java">Lesson1_ex3.java</a>.</i><br>
 
 ```java
 import java.util.Scanner; // Required to read a user data insertion\Necessário para ler um dado inserido pelo usuário;
