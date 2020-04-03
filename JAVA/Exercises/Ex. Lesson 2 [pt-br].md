@@ -5,7 +5,7 @@
 ### LIÇÃO 2: Ambiente de Desenvolvimento e Sintaxe U1
 **1. Crie um programa que permita a entrada pelo usuário dos seguintes dados: salário de um professor, a idade de uma criança, se um servidor tem plano de saúde ou não, se uma pessoa é casada (c) ou solteira (s) e o nome do aluno. Por fim, imprima todas as entradas usando System.out.println.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex1.java">Lesson2_ex1.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex1.java">Lesson2_ex1.java</a>.</i><br>
 
 ```java
 package lesson2;
@@ -67,7 +67,7 @@ public class Lesson2_ex1 {
 
 **2. Crie um programa que calcule o juro de uma dívida que você contraiu no mês passado no crediário de uma loja. A taxa de juros mensal e o valor da dívida serão fornecidos pelo usuário.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex2.java">Lesson2_ex2.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex2.java">Lesson2_ex2.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -111,7 +111,7 @@ public class Lesson2_ex2 {
 
 **3. Crie um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês. Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, o programa deve mostrar como resultado o seu nome e o seu salário no final do mês.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex3.java">Lesson2_ex3.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex3.java">Lesson2_ex3.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -151,7 +151,7 @@ public class Lesson2_ex3 {
 
 **4. Crie um programa que leia a idade e a altura de 10 pessoas. Calcule e informe a média das alturas das pessoas com mais de 50 anos. Para isso, use for.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex4.java">Lesson2_ex4.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex4.java">Lesson2_ex4.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -192,7 +192,7 @@ public class Lesson2_ex4 {
 
 **5. Crie um programa que leia 500 valores inteiros e positivos e retorne o maior valor, o menor valor e a média dos números lidos. Faça as apresentações para o usuário de forma organizada.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex5.java">Lesson2_ex5.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex5.java">Lesson2_ex5.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -243,7 +243,7 @@ public class Lesson2_ex5 {
 **6. Crie um programa que receba duas notas de um estudante em valores double. Na sequência, apresente todos os valores informados, a média, e se ele está aprovado ou reprovado. Detalhe: você não deve permitir que os valores informados como notas sejam inferiores a 0 ou superiores a 10. Para validação, use do/while.** <br><br>
 **Observação:** neste exercício eu resolvi me desafiar e tentar declarar duas notas para cada matéria. Estou feliz com o resultado!<br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex6.java">Lesson2_ex6.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex6.java">Lesson2_ex6.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -320,7 +320,7 @@ public class Lesson2_ex6 {
 
 **7. Crie um programa similar ao exercício 6, mas com o diferencial de que o usuário deve informar se quer continuar a usar o programa informando S-Sim ou N-Não.** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex7.java">Lesson2_ex7.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex7.java">Lesson2_ex7.java</a>.</i><br>
 
 ```java
 package Lesson2;
@@ -412,7 +412,7 @@ public class Lesson2_ex7 {
 
 **8. Crie um programa que receba 5 mil dados do usuário do tipo inteiro. Sabe-se que valores negativos não são aceitos. Após receber esses valores e popular o array, imprima na saída padrão a média dos valores, quantos valores são ímpares e todos os valores que foram informados..** <br>
 
-<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson2_ex8.java">Lesson2_ex8.java</a>.</i><br>
+<i>O código fonte desta resposta está guardado no github sob o nome <a href="https://github.com/KevinyTeixeira/Programming-Learn/blob/JAVA-Branch/JAVA/Exercises/.java%20Source/Lesson%202/Lesson2_ex8.java">Lesson2_ex8.java</a>.</i><br>
 
 ```java
 package Lesson2;
