@@ -22,7 +22,7 @@ public class GettersAndSetters {
 	public void setCapital(double capital) {
 		GettersAndSetters.capital = capital;
 	}
-	public double getJuros() {
+	public static double getJuros() {
 		return juros;
 	}
 	public void setJuros(double juros) {
