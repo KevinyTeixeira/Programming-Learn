@@ -24,9 +24,6 @@ PACKAGES:
 ucb.lesson7.ex1.main
 - Main.java | The main class;
 
-ucb.lesson7.ex1.methods
-- Visao.java | All methods used in this source are here;
-
 ucb.lesson7.ex1.entity
 - Form.java | The forms class (primary entity)
 - RectangleTriangle.java | The right triangle class (extended entity);
