@@ -8,28 +8,31 @@ import ucb.lesson3.reader.Leitor;
 public class Visao {
 
 	public static void cadastrarAluno() {
-
+	String nome;
+	double nota1, nota2, media;
+		
+		
 	System.out.printf("\n*CADASTRO INICIADO\n");
 	System.out.println("Insira o nome do(a) aluno(a): ");
-	Aluno.setNome(Leitor.lerString());
+	nome = Leitor.lerString();
 
 	do {
 		System.out.println("Insira a 1ª nota do(a) aluno(a): ");		
-		Aluno.setNota1(Leitor.lerDouble());
-		if (Aluno.getNota1() < 0 || Aluno.getNota1() > 10)
+		nota1 = Leitor.lerDouble();
+		if (nota1 < 0 || nota1 > 10)
 			System.out.println("Você só pode inserir uma nota que esteja entre 0 e 10!");
-	} while (Aluno.getNota1() < 0 || Aluno.getNota1() > 10);
+	} while (nota1 < 0 || nota1 > 10);
 
 	do {
 		System.out.println("Insira a 2ª nota do(a) aluno(a): ");		
-		Aluno.setNota2(Leitor.lerDouble());
-		if (Aluno.getNota2() < 0 || Aluno.getNota2() > 10)
+		nota2 = Leitor.lerDouble();
+		if (nota2 < 0 || nota2 > 10)
 			System.out.println("Você só pode inserir uma nota que esteja entre 0 e 10!");
-	} while (Aluno.getNota2() < 0 || Aluno.getNota2() > 10);
+	} while (nota2 < 0 || nota2 > 10);
 	
-	Aluno.setMedia(Aluno.getNota1() + Aluno.getNota2());
+	media = (nota1 + nota2) / 2;
 	
-	Aluno al = new Aluno(Aluno.getNome(), Aluno.getNota1(), Aluno.getNota2(), Aluno.getMedia());
+	Aluno al = new Aluno(nome, nota1, nota2, media);
 	ListaDeAlunos.alunos.add(al);
 	System.out.println("");
 	System.out.println("O aluno abaixo foi inserido com sucesso!" + al.toString());

@@ -8,17 +8,20 @@ import ucb.lesson6.reader.Leitor;
 public class Visao {
 
 	public static void cadastrarPessoa() {
+		String nome, ID, classeSocial;
+		double salario;
+		
 		System.out.println("");
 		System.out.println("*CADASTRAR NOVA PESSOA");
 		System.out.println("Insira o nome dessa pessoa: ");
-		Pessoa.setNome(Leitor.lerString());
+		nome = Leitor.lerString();
 		System.out.println("Insira a ID: ");
-		Pessoa.setId(Leitor.lerString());
+		ID = Leitor.lerString();
 		System.out.println("Insira o Salário: ");
-		Pessoa.setSalario(Leitor.lerDouble());
-		Pessoa.setClasseSocial(classificarPessoa(Pessoa.getSalario()));
+		salario = Leitor.lerDouble();
+		classeSocial = classificarPessoa(salario);
 		
-		Pessoa p = new Pessoa(Pessoa.getNome(), Pessoa.getId(), Pessoa.getClasseSocial(), Pessoa.getSalario());
+		Pessoa p = new Pessoa(nome, ID, classeSocial, salario);
 		ListaDePessoas.pessoas.add(p);
 		System.out.println("");
 		System.out.println("A pessoa abaixo foi inserida com sucesso!");

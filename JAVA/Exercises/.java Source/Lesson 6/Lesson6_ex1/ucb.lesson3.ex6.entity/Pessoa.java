@@ -2,47 +2,48 @@ package ucb.lesson6.ex1.entity;
 
 public class Pessoa {
 
-	private static String nome;
-	private static String id;
-	public static String classeSocial;
-	private static double salario;
+	private  String nome;
+	private  String id;
+	private  String classeSocial;
+	private  double salario;
 	
 	@Override
 	public String toString() {
-		return "\nID: " + Pessoa.getId() + "	\tNome: " + Pessoa.getNome() + "	\tClasse Social: " + Pessoa.getClasseSocial() + "	\tSalario: " + Pessoa.getSalario();
+		return "\nID: " + getId() + "	\tNome: " + getNome() + "	\tClasse Social: " + getClasseSocial() + "	\tSalario: " + getSalario();
 	}
 
 	public Pessoa (String nome, String id, String classeSocial, double Salario) {
 		setNome(nome);
 		setId(id);
+		setClasseSocial(classeSocial);
 		setSalario(Salario);
 	}
 	
-	public static String getClasseSocial() {
+	public String getClasseSocial() {
 		return classeSocial;
 	}
 
-	public static void setClasseSocial(String classeSocial) {
-		Pessoa.classeSocial = classeSocial;
+	public void setClasseSocial(String classeSocial) {
+		this.classeSocial = classeSocial;
 	}
 	
-	public static String getNome() {
+	public String getNome() {
 		return nome;
 	}
-	public static void setNome(String nome) {
-		Pessoa.nome = nome;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-	public static String getId() {
+	public String getId() {
 		return id;
 	}
-	public static void setId(String id) {
-		Pessoa.id = id;
+	public void setId(String id) {
+		this.id = id;
 	}
-	public static double getSalario() {
+	public double getSalario() {
 		return salario;
 	}
-	public static void setSalario(double salario) {
-		Pessoa.salario = salario;
+	public void setSalario(double salario) {
+		this.salario = salario;
 	}
 	
 }

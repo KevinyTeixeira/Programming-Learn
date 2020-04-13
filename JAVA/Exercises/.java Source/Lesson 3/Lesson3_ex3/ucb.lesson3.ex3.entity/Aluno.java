@@ -2,8 +2,8 @@ package ucb.lesson3.ex3.entity;
 
 public class Aluno {
 
-	private static String nome;
-	private static double nota1, nota2, media;
+	private String nome;
+	private double nota1, nota2, media;
 	
 	public Aluno (String nome, double nota1, double nota2, double media) {
 		setNome(nome);
@@ -18,34 +18,34 @@ public class Aluno {
 
 	@Override
 	public String toString () {
-	String texto = ("\nNome: " + Aluno.getNome() + "	\t1ª Nota: " + Aluno.getNota1() + "	\t2ª Nota: " + Aluno.getNota2() + "	\tMédia: " + Aluno.getMedia());
+	String texto = ("\nNome: " + getNome() + "	\t1ª Nota: " + getNota1() + "	\t2ª Nota: " + getNota2() + "	\tMédia: " + getMedia());
 		return texto;
 	}
 	
-	public static double getMedia() {
+	public double getMedia() {
 		return media;
 	}
 
-	public static void setMedia(double media) {
-		Aluno.media = media;
+	public void setMedia(double media) {
+		this.media = media;
 	}
 
-	public static String getNome() {
+	public String getNome() {
 		return nome;
 	}
-	public static double getNota1() {
+	public double getNota1() {
 		return nota1;
 	}
-	public static void setNota1(double nota1) {
-		Aluno.nota1 = nota1;
+	public void setNota1(double nota1) {
+		this.nota1 = nota1;
 	}
-	public static double getNota2() {
+	public double getNota2() {
 		return nota2;
 	}
-	public static void setNota2(double nota2) {
-		Aluno.nota2 = nota2;
+	public void setNota2(double nota2) {
+		this.nota2 = nota2;
 	}
-	public static void setNome(String nome) {
-		Aluno.nome = nome;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 }
