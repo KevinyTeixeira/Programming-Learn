@@ -1,55 +1,102 @@
 package ucb.lesson3.ex3.methods;
 
-import ucb.lesson3.ex3.main.Main;
-import ucb.lesson3.ex3.entity.Aluno;
-import ucb.lesson3.ex3.list.ListaDeAlunos;
+import ucb.lesson3.ex3.GandS.GandS;
 import ucb.lesson3.reader.Leitor;
 
 public class Visao {
 
-	public static void cadastrarAluno() {
-	String nome;
-	double nota1, nota2, media;
+	public static void calculatorInit() {
 		
-		
-	System.out.printf("\n*CADASTRO INICIADO\n");
-	System.out.println("Insira o nome do(a) aluno(a): ");
-	nome = Leitor.lerString();
-
-	do {
-		System.out.println("Insira a 1ª nota do(a) aluno(a): ");		
-		nota1 = Leitor.lerDouble();
-		if (nota1 < 0 || nota1 > 10)
-			System.out.println("Você só pode inserir uma nota que esteja entre 0 e 10!");
-	} while (nota1 < 0 || nota1 > 10);
-
-	do {
-		System.out.println("Insira a 2ª nota do(a) aluno(a): ");		
-		nota2 = Leitor.lerDouble();
-		if (nota2 < 0 || nota2 > 10)
-			System.out.println("Você só pode inserir uma nota que esteja entre 0 e 10!");
-	} while (nota2 < 0 || nota2 > 10);
-	
-	media = (nota1 + nota2) / 2;
-	
-	Aluno al = new Aluno(nome, nota1, nota2, media);
-	ListaDeAlunos.alunos.add(al);
-	System.out.println("");
-	System.out.println("O aluno abaixo foi inserido com sucesso!" + al.toString());
-	System.out.printf("\n");
-	Main.main(null);
-	}
-	
-	public static void printAlunos() {
-		System.out.printf("\n*IMPRIMINDO ALUNOS\n");
-		if (ListaDeAlunos.alunos.size() == 0)
-			System.out.println("A lista de alunos está vazia.");
-		else
-			for ( Aluno al : ListaDeAlunos.alunos) {
-				System.out.println(al.toString());
-			}
+		System.out.println("Insira o primeiro valor: ");
+		GandS.setNumero1(Leitor.lerDouble());
+		System.out.println("Insira o segundo valor: ");
+		GandS.setNumero2(Leitor.lerDouble());
 		System.out.println("");
-		Main.main(null);
+		System.out.println("Insira qual operação deseja fazer: ");
+		System.out.println("[+] Soma;");
+		System.out.println("[-] Subtração;");
+		System.out.println("[*] Multiplicação;");
+		System.out.println("[/] Divisão;");
+		System.out.println("[e] Expoente;");
+		GandS.setOperador(Leitor.lerCaracter());
+		
 	}
 	
+	public static void calcular(double numero1, double numero2, char operador, double resultado) {
+	
+	switch (GandS.getOperador()) {
+	
+		case '+':
+			GandS.setResultado(soma(GandS.getNumero1(),GandS.getNumero2()));
+			break;
+			
+		case '-':
+			GandS.setResultado(subtracao(GandS.getNumero1(),GandS.getNumero2()));
+			break;
+			
+		case '*':
+			GandS.setResultado(multiplicacao(GandS.getNumero1(),GandS.getNumero2()));
+			break;
+			
+		case '/':
+			GandS.setResultado(divisao(GandS.getNumero1(),GandS.getNumero2()));
+			break;
+			
+		case 'e':
+			GandS.setResultado(expoente(GandS.getNumero1(),GandS.getNumero2()));
+			break;
+			
+		default:
+			System.out.println("Você não inseriu nenhum operador válido. O programa foi encerrado.");
+
+		}
+	}
+	
+	public static void imprimir(double numero1, double numero2, char operador, double resultado) {
+		System.out.println("");
+		System.out.println("RESULTADO: " + GandS.getNumero1() + " " + GandS.getOperador() + " " + GandS.getNumero2() + " = " + GandS.getResultado());
+		calculatorEnding();
+	}
+	
+	//Arithmetic Operations
+	public static double soma(double numero1, double numero2) {
+		return numero1 + numero2;
+	}
+	public static double subtracao(double numero1, double numero2) {
+		return numero1 - numero2;
+	}
+	public static double multiplicacao(double numero1, double numero2) {
+		return numero1 * numero2;
+	}
+	public static double divisao(double numero1, double numero2) {
+		if (numero2 == 0) {
+			return -1;
+		} else
+			return numero1 / numero2;
+	}
+	public static double expoente(double base, double expoenteFlutuante) {
+		int expoente = (int)expoenteFlutuante;
+		double resultado = 1;
+		for (int i = 0; i < expoente; i++) {
+			resultado = resultado * base;
+		}
+		return resultado;
+	}
+	
+	public static void calculatorEnding() {
+		String resposta;
+		System.out.println("");
+		System.out.println("Operação finalizada! Deseja efetuar outro cálculo?");
+		System.out.println("[SIM] - O programa retornará para o início;");
+		System.out.println("[NÃO] - O programa será encerrado;");
+		resposta = Leitor.lerString();
+		if (resposta == "SIM") {
+			System.out.println("");
+			calculatorInit();
+		} else if (resposta == "NÃO") {
+			System.out.println("Programa encerrado.");
+			System.exit(0);	
+		} else
+			System.out.println("Você não deu uma resposta válida. Programa encerrado!");
+	}
 }

@@ -1,4 +1,4 @@
-package ucb.lesson3.ex3.entity;
+package ucb.lesson4.ex3.entity;
 
 public class Aluno {
 
